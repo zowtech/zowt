@@ -37,23 +37,30 @@ export function BlogSection() {
           {articles.map((article, index) => (
             <article 
               key={index}
-              className="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 hover:border-bright-blue transition duration-300"
+              className="group card-hover animate-fadeInUp relative"
+              style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <img 
-                src={article.image} 
-                alt={t(article.titleKey)} 
-                className="w-full h-48 object-cover" 
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-3 text-white">
-                  {t(article.titleKey)}
-                </h3>
-                <p className="text-gray-300 mb-4">
-                  {t(article.excerptKey)}
-                </p>
-                <button className="text-bright-blue hover:text-blue-400 font-medium">
-                  {t('blog.readMore')}
-                </button>
+              <div className="absolute inset-0 bg-gradient-to-br from-bright-blue/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-700/50 hover:border-bright-blue/50 transition-all duration-300">
+                <div className="relative overflow-hidden">
+                  <img 
+                    src={article.image} 
+                    alt={t(article.titleKey)} 
+                    className="w-full h-52 object-cover group-hover:scale-110 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-bright-blue transition-colors duration-300">
+                    {t(article.titleKey)}
+                  </h3>
+                  <p className="text-gray-300 mb-6 leading-relaxed">
+                    {t(article.excerptKey)}
+                  </p>
+                  <button className="inline-flex items-center text-bright-blue hover:text-blue-400 font-medium group-hover:translate-x-2 transition-transform duration-300">
+                    {t('blog.readMore')}
+                  </button>
+                </div>
               </div>
             </article>
           ))}

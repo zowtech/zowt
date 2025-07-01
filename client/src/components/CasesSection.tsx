@@ -40,17 +40,25 @@ export function CasesSection() {
             return (
               <div 
                 key={index}
-                className="bg-slate-800 p-6 rounded-xl border border-slate-700"
+                className="relative group card-hover animate-fadeInUp"
+                style={{ animationDelay: `${index * 0.2}s` }}
               >
-                <div className="text-bright-blue text-3xl mb-4">
-                  <IconComponent className="h-8 w-8" />
+                <div className="absolute inset-0 bg-gradient-to-br from-bright-blue/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative glass p-8 rounded-2xl border border-slate-700/50 hover:border-bright-blue/50 transition-all duration-300">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-bright-blue/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150"></div>
+                    <div className="relative text-bright-blue text-4xl group-hover:scale-110 transition-transform duration-300 inline-block">
+                      <IconComponent className="h-10 w-10" />
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-bright-blue transition-colors duration-300">
+                    {t(caseItem.titleKey)}
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    {t(caseItem.descKey)}
+                  </p>
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-bright-blue to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-white">
-                  {t(caseItem.titleKey)}
-                </h3>
-                <p className="text-gray-300">
-                  {t(caseItem.descKey)}
-                </p>
               </div>
             );
           })}

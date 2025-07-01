@@ -70,9 +70,11 @@ export function ContactSection() {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-slate-800 p-8 rounded-xl border border-slate-700">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
+          <div className="relative group animate-fadeInUp">
+            <div className="absolute -inset-1 bg-gradient-to-r from-bright-blue/20 to-blue-600/20 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="relative glass p-8 rounded-2xl border border-slate-700/50">
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div>
                 <Label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
                   {t('contact.form.name')}
                 </Label>
@@ -121,7 +123,8 @@ export function ContactSection() {
               >
                 {contactMutation.isPending ? 'Enviando...' : t('contact.form.submit')}
               </Button>
-            </form>
+              </form>
+            </div>
           </div>
 
           {/* Contact Information */}

@@ -55,17 +55,25 @@ export function ServicesSection() {
             return (
               <div 
                 key={index}
-                className="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-bright-blue transition duration-300 group"
+                className="relative group card-hover animate-fadeInUp"
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="text-bright-blue text-4xl mb-4 group-hover:scale-110 transition duration-300">
-                  <IconComponent className="h-10 w-10" />
+                <div className="absolute inset-0 bg-gradient-to-br from-bright-blue/10 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative bg-slate-800/80 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-bright-blue/50 transition-all duration-300">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-bright-blue/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150"></div>
+                    <div className="relative text-bright-blue text-4xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <IconComponent className="h-12 w-12" />
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-bright-blue transition-colors duration-300">
+                    {t(service.titleKey)}
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    {t(service.descKey)}
+                  </p>
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-bright-blue to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-xl"></div>
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-white">
-                  {t(service.titleKey)}
-                </h3>
-                <p className="text-gray-300">
-                  {t(service.descKey)}
-                </p>
               </div>
             );
           })}

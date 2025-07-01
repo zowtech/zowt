@@ -5,9 +5,14 @@ export function AboutSection() {
   const { t } = useLanguage();
 
   return (
-    <section id="about" className="py-20 bg-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+    <section id="about" className="py-24 gradient-section relative overflow-hidden">
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Cpath d='M0 40h80v40H0V40zm20 0v20h20V40H20zm20 0v20h20V40H40z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        }}></div>
+      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-bright-blue">
               {t('about.title')}
