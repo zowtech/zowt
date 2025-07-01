@@ -114,23 +114,23 @@ export function AboutSection() {
                   <Users className="h-12 w-12 text-bright-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-1">Lucas Alberto</h3>
-                <p className="text-bright-blue font-mono text-sm">CYBER FORENSIC EXPERT</p>
+                <p className="text-bright-blue font-mono text-sm">{t('about.title.expert')}</p>
                 <div className="mt-2 px-3 py-1 bg-green-500/20 text-green-400 text-xs font-mono rounded-full border border-green-400/30">
-                  10+ ANOS DE EXPERIÊNCIA
+                  {t('about.experience')}
                 </div>
               </div>
               
               {/* Certificações Adicionais */}
               <div className="space-y-3 mb-6">
-                <h4 className="text-sm font-mono text-bright-blue mb-3">CERTIFICAÇÕES TÉCNICAS:</h4>
+                <h4 className="text-sm font-mono text-bright-blue mb-3">{t('about.certifications')}</h4>
                 <div className="space-y-2">
                   <div className="flex items-center text-xs text-gray-300">
                     <div className="h-1 w-1 bg-green-400 rounded-full mr-3"></div>
-                    <span>Certificado em Análise Forense</span>
+                    <span>{t('about.certified.forensic')}</span>
                   </div>
                   <div className="flex items-center text-xs text-gray-300">
                     <div className="h-1 w-1 bg-blue-400 rounded-full mr-3"></div>
-                    <span>Blockchain Analysis Certified</span>
+                    <span>{t('about.blockchain.certified')}</span>
                   </div>
                   <div className="flex items-center text-xs text-gray-300">
                     <div className="h-1 w-1 bg-purple-400 rounded-full mr-3"></div>

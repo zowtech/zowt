@@ -69,6 +69,25 @@ const translations = {
     'about.criminology': 'Formação em Criminologia',
     'about.cyber': 'Certificado em Cybersecurity',
     'about.defender': 'Cyber Defender Certificado',
+    'about.experience': '10+ ANOS DE EXPERIÊNCIA',
+    'about.certified.forensic': 'Certificado em Análise Forense',
+    'about.title.expert': 'CYBER FORENSIC EXPERT',
+    'about.certifications': 'CERTIFICAÇÕES TÉCNICAS:',
+    'about.blockchain.certified': 'Blockchain Analysis Certified',
+    
+    // Blog additional
+    'blog.viewall': 'Ver todos',
+    'blog.newsletter.title': 'Newsletter Técnica',
+    'blog.newsletter.desc': 'Receba insights exclusivos sobre análise forense e investigação digital.',
+    'blog.newsletter.learn': 'Saber mais',
+    
+    // Articles page
+    'articles.title': 'Artigos Técnicos',
+    'articles.subtitle': 'Insights especializados sobre investigação digital, análise forense e cybersecurity.',
+    'articles.back': 'Voltar',
+    'articles.consultation.title': 'Precisa de Consultoria Especializada?',
+    'articles.consultation.desc': 'Entre em contato para discutir seu caso específico e obter análise técnica personalizada.',
+    'articles.consultation.cta': 'Solicitar Consultoria',
     
     // Cases
     'cases.title': 'Casos Atendidos',
@@ -201,6 +220,25 @@ const translations = {
     'about.criminology': 'Criminology Background',
     'about.cyber': 'Cybersecurity Certified',
     'about.defender': 'Cyber Defender Certified',
+    'about.experience': '10+ YEARS OF EXPERIENCE',
+    'about.certified.forensic': 'Certified in Forensic Analysis',
+    'about.title.expert': 'CYBER FORENSIC EXPERT',
+    'about.certifications': 'TECHNICAL CERTIFICATIONS:',
+    'about.blockchain.certified': 'Blockchain Analysis Certified',
+    
+    // Blog additional
+    'blog.viewall': 'View all',
+    'blog.newsletter.title': 'Technical Newsletter',
+    'blog.newsletter.desc': 'Receive exclusive insights on forensic analysis and digital investigation.',
+    'blog.newsletter.learn': 'Learn more',
+    
+    // Articles page
+    'articles.title': 'Technical Articles',
+    'articles.subtitle': 'Specialized insights on digital investigation, forensic analysis and cybersecurity.',
+    'articles.back': 'Back',
+    'articles.consultation.title': 'Need Specialized Consultation?',
+    'articles.consultation.desc': 'Contact us to discuss your specific case and get personalized technical analysis.',
+    'articles.consultation.cta': 'Request Consultation',
     
     // Cases
     'cases.title': 'Case Portfolio',

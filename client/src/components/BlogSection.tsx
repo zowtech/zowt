@@ -51,7 +51,7 @@ export function BlogSection() {
               href="/artigos"
               className="inline-flex items-center text-bright-blue hover:text-blue-300 transition-colors group"
             >
-              <span className="font-medium mr-2">Ver todos</span>
+              <span className="font-medium mr-2">{t('blog.viewall')}</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

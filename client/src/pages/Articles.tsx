@@ -48,7 +48,7 @@ export default function Articles() {
         <div className="max-w-6xl mx-auto px-4 py-4">
           <Link href="/" className="inline-flex items-center text-bright-blue hover:text-blue-300 transition-colors">
             <ArrowLeft className="h-4 w-4 mr-2" />
-            <span className="font-medium text-sm">Voltar</span>
+            <span className="font-medium text-sm">{t('articles.back')}</span>
           </Link>
         </div>
       </header>
@@ -59,10 +59,10 @@ export default function Articles() {
         {/* Page Title */}
         <div className="mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Artigos Técnicos
+            {t('articles.title')}
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl">
-            Insights especializados sobre investigação digital, análise forense e cybersecurity.
+            {t('articles.subtitle')}
           </p>
         </div>
 
@@ -188,16 +188,16 @@ export default function Articles() {
         <section className="mt-20">
           <div className="text-center glass rounded-2xl p-12 border border-bright-blue/20">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Precisa de Consultoria Especializada?
+              {t('articles.consultation.title')}
             </h3>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-              Entre em contato para discutir seu caso específico e obter análise técnica personalizada.
+              {t('articles.consultation.desc')}
             </p>
             <Link 
               href="/#contact"
               className="inline-flex items-center px-8 py-4 bg-bright-blue hover:bg-blue-600 text-white rounded-xl transition-all duration-300 transform hover:scale-105 font-medium"
             >
-              <span>Solicitar Consultoria</span>
+              <span>{t('articles.consultation.cta')}</span>
               <ChevronRight className="h-5 w-5 ml-2" />
             </Link>
           </div>
