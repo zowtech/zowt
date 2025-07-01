@@ -146,11 +146,11 @@ export function CasesSection() {
               <div className="text-gray-300 text-sm font-mono">CASOS RESOLVIDOS</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-400 mb-2">R$ 250M+</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">R$ 20M+</div>
               <div className="text-gray-300 text-sm font-mono">VALORES RASTREADOS</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-400 mb-2">99%</div>
+              <div className="text-3xl font-bold text-purple-400 mb-2">98%</div>
               <div className="text-gray-300 text-sm font-mono">TAXA DE SUCESSO</div>
             </div>
             <div>

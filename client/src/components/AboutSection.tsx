@@ -116,7 +116,7 @@ export function AboutSection() {
                 <h3 className="text-xl font-bold text-white mb-1">Lucas Alberto</h3>
                 <p className="text-bright-blue font-mono text-sm">CYBER FORENSIC EXPERT</p>
                 <div className="mt-2 px-3 py-1 bg-green-500/20 text-green-400 text-xs font-mono rounded-full border border-green-400/30">
-                  8+ ANOS DE EXPERIÊNCIA
+                  10+ ANOS DE EXPERIÊNCIA
                 </div>
               </div>
               

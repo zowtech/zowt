@@ -37,11 +37,6 @@ export function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Badge */}
         <div className="inline-flex items-center glass rounded-full px-6 py-3 mb-8 animate-fadeInUp border border-bright-blue/30">
-          <div className="flex items-center mr-3">
-            <div className="h-2 w-2 bg-red-500 rounded-full mr-2 animate-pulse"></div>
-            <span className="text-xs text-red-400 font-mono">CLASSIFIED</span>
-          </div>
-          <div className="h-4 w-px bg-slate-600 mx-2"></div>
           <Fingerprint className="h-4 w-4 text-bright-blue mr-2" />
           <span className="text-sm text-gray-300 font-medium">Perícia Forense Digital | Nível Elite</span>
         </div>

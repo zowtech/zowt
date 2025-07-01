@@ -104,6 +104,10 @@ Changelog:
 - July 01, 2025: Added "Certificado em Análise Forense" and "8+ Anos de experiência" to expert profile
 - July 01, 2025: Redesigned articles page with modern layout featuring hero section, featured article grid, and newsletter signup
 - July 01, 2025: Improved expert profile section with additional certifications and technical specializations
+- July 01, 2025: Updated experience to "10+ ANOS DE EXPERIÊNCIA" (user feedback)
+- July 01, 2025: Fixed statistics consistency - 98% success rate throughout (corrected from 99%)
+- July 01, 2025: Completely redesigned articles page with minimal layout, numbered articles, and professional typography
+- July 01, 2025: Cleaned up hero section layout by removing potentially overlapping elements
 ```
 
 ## User Preferences
