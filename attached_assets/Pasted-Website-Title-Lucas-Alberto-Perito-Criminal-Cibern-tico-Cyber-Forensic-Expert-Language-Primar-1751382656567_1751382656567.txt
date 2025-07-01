@@ -1,0 +1,88 @@
+Website Title: Lucas Alberto – Perito Criminal Cibernético | Cyber Forensic Expert
+
+Language: Primary content in Portuguese (Brazil), with an English version available.
+
+Style: Profissional, moderno, com tons escuros e azulados. Utilize ícones para os serviços, divisores de seção e um visual limpo. Foco em confiança, credibilidade técnica e atuação pericial. Versão mobile responsiva.
+
+---
+
+Página Inicial / Home:
+- Hero Section:
+  - Headline (PT): "Provas Digitais. Justiça Real."
+  - Subheadline (PT): "Especialista em crimes cibernéticos, fraudes e perícia digital."
+  - Headline (EN): "Digital Evidence. Real Justice."
+  - Subheadline (EN): "Expert in cybercrime, fraud investigation, and digital forensics."
+  - Botão: "Solicitar Análise" / "Request Investigation" → Formulário ou link para WhatsApp
+
+- Introdução:
+  - (PT): "Lucas Alberto é perito criminal cibernético, especializado em analisar provas digitais, investigar fraudes online e elaborar laudos técnicos aceitos judicialmente. Auxiliamos pessoas físicas, empresas e escritórios de advocacia a desvendar crimes digitais com precisão."
+  - (EN): "Lucas Alberto is a certified cyber forensic expert specialized in analyzing digital evidence, identifying fraud, and providing court-accepted technical reports. We help individuals, companies, and law firms uncover cybercrime with precision."
+
+---
+
+Serviços / Services:
+Título (PT): "Serviços Prestados"
+Título (EN): "Services Offered"
+Apresente em formato de grade (ícones ou cards)
+
+- (PT)
+  - Perícia Forense Digital
+  - Investigação de Fraudes Online
+  - Análise de E-mails e Redes Sociais
+  - Laudos Técnicos para Processos Judiciais
+  - Verificação de Manipulação de Áudio, Vídeo e Documentos
+  - Consultoria em LGPD e Compliance Digital
+
+- (EN)
+  - Digital Forensics
+  - Online Fraud Investigation
+  - Email and Social Media Analysis
+  - Expert Technical Reports
+  - Audio/Video Tampering Detection
+  - LGPD Compliance and Digital Risk Consulting
+
+---
+
+Sobre o Perito / About the Expert:
+- (PT): "Com formação em jornalismo e segurança digital, Lucas Alberto atua em investigações de crimes virtuais, coleta de provas técnicas e consultoria para advogados e empresas. É certificado em análise forense e LGPD, e une conhecimento técnico com clareza jurídica."
+- (EN): "With a background in journalism and digital security, Lucas Alberto assists in cybercrime investigations, technical evidence collection, and legal consulting. Certified in forensic analysis and LGPD compliance, he brings technical expertise and legal clarity together."
+
+---
+
+Estudos de Caso (opcional) / Case Examples:
+Título (PT): "Casos Atendidos"
+Título (EN): "Case Examples"
+- (PT): "Atendimentos envolvendo fraudes financeiras, roubo de identidade, ataques hacker e falsificação de mensagens eletrônicas."
+- (EN): "Cases involving financial fraud, identity theft, hacking incidents, and tampered electronic messages."
+
+---
+
+Artigos / Blog:
+Título (PT): "Artigos e Dicas"
+Título (EN): "Blog & Insights"
+
+Postagens sugeridas:
+- Como identificar spoofing de e-mail
+- Os golpes online mais comuns em 2025
+- O que é um laudo pericial digital?
+
+---
+
+Contato / Contact:
+- Título (PT): "Entre em Contato"
+- Título (EN): "Get in Touch"
+- Formulário com: Nome / Email / Mensagem
+- Botão WhatsApp com ícone
+- E-mail: contato@seudominio.com / contact@seudominio.com
+- LinkedIn (opcional)
+
+---
+
+Rodapé / Footer:
+- (PT): Política de Privacidade | Termos de Uso | © 2025 Lucas Alberto – Todos os direitos reservados.
+- (EN): Privacy Policy | Terms of Use | © 2025 Lucas Alberto – All rights reserved.
+
+---
+
+Instrução Final:
+Please generate the entire website with bilingual support. Primary language: Portuguese (Brazil), secondary language: English. All sections must have both versions. Use professional layout, dark/blue theme, mobile responsiveness, and service-oriented navigation.
