@@ -19,7 +19,7 @@ const translations = {
     'nav.contact': 'Contato',
     
     // Hero Section
-    'hero.headline': 'Provas Digitais. Justiça Real.',
+    'hero.headline': 'Investigação Digital Elite.',
     'hero.subheadline': 'Especialista em crimes cibernéticos, fraudes e perícia digital.',
     'hero.cta': 'Solicitar Análise',
     'hero.secondary': 'Conhecer Serviços',
@@ -119,7 +119,7 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero Section
-    'hero.headline': 'Digital Evidence. Real Justice.',
+    'hero.headline': 'Elite Digital Investigation.',
     'hero.subheadline': 'Expert in cybercrime, fraud investigation, and digital forensics.',
     'hero.cta': 'Request Investigation',
     'hero.secondary': 'Learn More',
@@ -217,7 +217,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>('pt');
 
   const t = (key: string): string => {
-    return translations[language][key] || key;
+    return (translations[language] as any)[key] || key;
   };
 
   return (

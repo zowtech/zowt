@@ -21,25 +21,16 @@ export function HeroSection() {
         }}></div>
       </div>
 
-      {/* Floating Forensic Elements */}
+      {/* Floating Forensic Elements - Simplified */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-10 text-bright-blue/20 animate-pulse-slow">
-          <Shield className="h-16 w-16" />
+        <div className="absolute top-32 left-16 text-bright-blue/10 animate-pulse-slow">
+          <Shield className="h-12 w-12" />
         </div>
-        <div className="absolute top-32 right-16 text-bright-blue/20 animate-pulse-slow" style={{ animationDelay: '1s' }}>
-          <Fingerprint className="h-12 w-12" />
+        <div className="absolute top-40 right-20 text-bright-blue/10 animate-pulse-slow" style={{ animationDelay: '2s' }}>
+          <Database className="h-10 w-10" />
         </div>
-        <div className="absolute bottom-32 left-20 text-bright-blue/20 animate-pulse-slow" style={{ animationDelay: '2s' }}>
-          <Database className="h-14 w-14" />
-        </div>
-        <div className="absolute top-1/3 right-1/4 text-bright-blue/15 animate-pulse-slow" style={{ animationDelay: '3s' }}>
-          <Eye className="h-10 w-10" />
-        </div>
-        <div className="absolute bottom-1/4 right-10 text-bright-blue/15 animate-pulse-slow" style={{ animationDelay: '4s' }}>
-          <Wifi className="h-8 w-8" />
-        </div>
-        <div className="absolute top-1/2 left-1/3 text-bright-blue/15 animate-pulse-slow" style={{ animationDelay: '5s' }}>
-          <Activity className="h-12 w-12" />
+        <div className="absolute bottom-40 left-32 text-bright-blue/10 animate-pulse-slow" style={{ animationDelay: '4s' }}>
+          <Fingerprint className="h-10 w-10" />
         </div>
       </div>
       
