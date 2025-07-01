@@ -62,8 +62,8 @@ const translations = {
     'services.network.desc': 'Investigação forense de comunicações e protocolos de rede',
     
     // About
-    'about.title': 'Sobre o Perito',
-    'about.description': 'Perito forense especializado em blockchain, criptomoedas e investigações digitais. Ofereço serviços de detecção de fraudes cripto, rastreamento de ativos, análise de crimes cibernéticos e preservação de evidências digitais. Discreto, preciso e alinhado com padrões forenses globais.',
+    'about.title': 'Sobre a ZowT',
+    'about.description': 'Empresa especializada em perícia forense digital, blockchain e investigações cibernéticas. Oferecemos serviços de detecção de fraudes cripto, rastreamento de ativos, análise de crimes digitais e preservação de evidências. Operações discretas, precisas e alinhadas com padrões forenses globais.',
     'about.education': 'Bacharel em Engenharia da Computação',
     'about.forensic': 'Especialista em Ciências Forenses',
     'about.criminology': 'Formação em Criminologia',
@@ -213,8 +213,8 @@ const translations = {
     'services.network.desc': 'Forensic investigation of communications and network protocols',
     
     // About
-    'about.title': 'About the Expert',
-    'about.description': 'Forensic expert specialized in blockchain, cryptocurrency, and digital investigations. I offer services in crypto fraud detection, asset tracing, cybercrime analysis, and digital evidence preservation. Discreet, precise, and aligned with global forensic standards.',
+    'about.title': 'About ZowT',
+    'about.description': 'Digital forensic company specialized in blockchain, cryptocurrency, and cyber investigations. We offer services in crypto fraud detection, asset tracing, digital crime analysis, and evidence preservation. Discreet operations, precise results, and aligned with global forensic standards.',
     'about.education': 'Computer Engineering BS',
     'about.forensic': 'Forensic Science Specialist',
     'about.criminology': 'Criminology Background',
