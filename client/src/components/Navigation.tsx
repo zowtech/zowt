@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ZowTechLogo } from './ZowTechLogo';
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,7 +20,10 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <ZowTechLogo size="md" variant="horizontal" className="mr-4" />
+            <div className="flex items-center gap-2 mr-4">
+              <span className="text-white font-bold text-xl font-mono">ZowT</span>
+              <span className="text-bright-blue text-xs font-mono">CYBER</span>
+            </div>
             <div className="hidden lg:flex items-center ml-4 glass px-3 py-1 rounded-full">
               <div className="h-2 w-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
               <span className="text-xs text-gray-300 font-mono">SYSTEM ACTIVE</span>

@@ -1,5 +1,4 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ZowTechLogo } from './ZowTechLogo';
 
 export function Footer() {
   const { t } = useLanguage();
@@ -14,7 +13,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <ZowTechLogo size="lg" variant="full" className="mb-4" />
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-white font-bold text-2xl font-mono">ZowT</span>
+              <span className="text-bright-blue text-sm font-mono">CYBER FORENSICS</span>
+            </div>
             <p className="text-gray-400 mb-4">
               {t('footer.description')}
             </p>
