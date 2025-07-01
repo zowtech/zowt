@@ -113,8 +113,8 @@ export function AboutSection() {
                 <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-bright-blue/20 to-purple-500/20 flex items-center justify-center border-2 border-bright-blue/30">
                   <Users className="h-12 w-12 text-bright-blue" />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-1">ZowT Expert</h3>
-                <p className="text-bright-blue font-mono text-xs mb-1">CYBER FORENSIC SPECIALIST</p>
+                <h3 className="text-xl font-bold text-white mb-1">Lucas Alberto</h3>
+                <p className="text-bright-blue font-mono text-xs mb-1">FOUNDER & CEO • ZOWT</p>
                 <p className="text-bright-blue font-mono text-sm">{t('about.title.expert')}</p>
                 <div className="mt-2 px-3 py-1 bg-green-500/20 text-green-400 text-xs font-mono rounded-full border border-green-400/30">
                   {t('about.experience')}

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application for ZowT, a cyber forensics company specializing in digital crime investigation and fraud analysis. The application is built as a modern, responsive website showcasing their professional services with both Portuguese and English language support.
+This is a full-stack web application for ZowT, a cyber forensics company founded by Lucas Alberto, specializing in digital crime investigation and fraud analysis. The application is built as a modern, responsive website showcasing his professional services with both Portuguese and English language support.
 
 The project follows a monorepo structure with a React frontend, Express.js backend, and PostgreSQL database integration using Drizzle ORM. It's designed as a professional portfolio and service inquiry platform for cybersecurity and digital forensics consulting.
 
@@ -117,7 +117,6 @@ Changelog:
 - July 01, 2025: Simplified brand to "ZowT" with clean text-based logo, removed complex SVG graphics per user feedback
 - July 01, 2025: Enhanced technical capabilities across key services: advanced network traffic analysis, comprehensive SAR/FATF reporting, international AML/CFT compliance, OSINT/SOC/HUMINT operations, and complete corporate due diligence
 - July 01, 2025: Corrected "OSINT, SOC & HUMINT" to "OSINT & SOCMINT" and reduced description lengths to fix card layout alignment issues
-- July 01, 2025: Updated all personal references from "Lucas Alberto" to company branding "ZowT Expert" and changed about sections to reflect company identity
 ```
 
 ## User Preferences
