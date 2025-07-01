@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application for Lucas Alberto, a cyber forensic expert specializing in digital crime investigation and fraud analysis. The application is built as a modern, responsive website showcasing his professional services with both Portuguese and English language support.
+This is a full-stack web application for ZowTech, a cyber forensics company founded by Lucas Alberto, specializing in digital crime investigation and fraud analysis. The application is built as a modern, responsive website showcasing his professional services with both Portuguese and English language support.
 
 The project follows a monorepo structure with a React frontend, Express.js backend, and PostgreSQL database integration using Drizzle ORM. It's designed as a professional portfolio and service inquiry platform for cybersecurity and digital forensics consulting.
 
@@ -112,6 +112,7 @@ Changelog:
 - July 01, 2025: Removed "Perícia Forense Digital | Nível Elite" badge from hero section for cleaner layout
 - July 01, 2025: Completed English translations for all missing text elements (about section, blog, articles page)
 - July 01, 2025: Completely redesigned articles page with modern card-based grid layout, enhanced metadata display, and improved user experience
+- July 01, 2025: Rebranded from Lucas Alberto to ZowTech company with custom SVG logo, updated navigation, footer, and all branding elements
 ```
 
 ## User Preferences
