@@ -109,6 +109,7 @@ Changelog:
 - July 01, 2025: Completely redesigned articles page with minimal layout, numbered articles, and professional typography
 - July 01, 2025: Cleaned up hero section layout by removing potentially overlapping elements
 - July 01, 2025: Redesigned blog section with compact grid layout, real images from Unsplash, and improved visual hierarchy
+- July 01, 2025: Removed "Perícia Forense Digital | Nível Elite" badge from hero section for cleaner layout
 ```
 
 ## User Preferences

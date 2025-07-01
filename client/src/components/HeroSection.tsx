@@ -35,11 +35,7 @@ export function HeroSection() {
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* Badge */}
-        <div className="inline-flex items-center glass rounded-full px-6 py-3 mb-8 animate-fadeInUp border border-bright-blue/30">
-          <Fingerprint className="h-4 w-4 text-bright-blue mr-2" />
-          <span className="text-sm text-gray-300 font-medium">Perícia Forense Digital | Nível Elite</span>
-        </div>
+
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white text-shadow-lg animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
           {t('hero.headline')}
