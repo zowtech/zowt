@@ -58,13 +58,17 @@ const translations = {
     'services.aml.desc': 'Prevenção à lavagem de dinheiro e financiamento ao terrorismo',
     'services.sar.title': 'SAR & FATF Reporting',
     'services.sar.desc': 'Relatórios de atividades suspeitas e conformidade FATF',
+    'services.network.title': 'Análise de Tráfego de Rede',
+    'services.network.desc': 'Investigação forense de comunicações e protocolos de rede',
     
     // About
     'about.title': 'Sobre o Perito',
-    'about.description': 'Com formação em jornalismo e segurança digital, Lucas Alberto atua em investigações de crimes virtuais, coleta de provas técnicas e consultoria para advogados e empresas. É certificado em análise forense e LGPD, e une conhecimento técnico com clareza jurídica.',
-    'about.education': 'Formação em Jornalismo e Segurança Digital',
-    'about.cert': 'Certificado em Análise Forense Digital',
-    'about.legal': 'Especialista em LGPD e Compliance',
+    'about.description': 'Perito forense especializado em blockchain, criptomoedas e investigações digitais. Ofereço serviços de detecção de fraudes cripto, rastreamento de ativos, análise de crimes cibernéticos e preservação de evidências digitais. Discreto, preciso e alinhado com padrões forenses globais.',
+    'about.education': 'Bacharel em Engenharia da Computação',
+    'about.forensic': 'Especialista em Ciências Forenses',
+    'about.criminology': 'Formação em Criminologia',
+    'about.cyber': 'Certificado em Cybersecurity',
+    'about.defender': 'Cyber Defender Certificado',
     
     // Cases
     'cases.title': 'Casos Atendidos',
@@ -186,13 +190,17 @@ const translations = {
     'services.aml.desc': 'Anti-money laundering and counter-terrorism financing prevention',
     'services.sar.title': 'SAR & FATF Reporting',
     'services.sar.desc': 'Suspicious activity reports and FATF compliance documentation',
+    'services.network.title': 'Network Traffic Analysis',
+    'services.network.desc': 'Forensic investigation of communications and network protocols',
     
     // About
     'about.title': 'About the Expert',
-    'about.description': 'With a background in journalism and digital security, Lucas Alberto assists in cybercrime investigations, technical evidence collection, and legal consulting. Certified in forensic analysis and LGPD compliance, he brings technical expertise and legal clarity together.',
-    'about.education': 'Background in Journalism and Digital Security',
-    'about.cert': 'Certified in Digital Forensic Analysis',
-    'about.legal': 'LGPD and Compliance Specialist',
+    'about.description': 'Forensic expert specialized in blockchain, cryptocurrency, and digital investigations. I offer services in crypto fraud detection, asset tracing, cybercrime analysis, and digital evidence preservation. Discreet, precise, and aligned with global forensic standards.',
+    'about.education': 'Computer Engineering BS',
+    'about.forensic': 'Forensic Science Specialist',
+    'about.criminology': 'Criminology Background',
+    'about.cyber': 'Cybersecurity Certified',
+    'about.defender': 'Cyber Defender Certified',
     
     // Cases
     'cases.title': 'Case Portfolio',

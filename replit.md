@@ -92,7 +92,14 @@ The project follows a monorepo structure with a React frontend, Express.js backe
 ## Changelog
 ```
 Changelog:
-- July 01, 2025. Initial setup
+- July 01, 2025: Initial setup
+- July 01, 2025: Expanded services to 14 specialized areas with detailed technical capabilities
+- July 01, 2025: Enhanced cases section with 10 diverse investigation examples
+- July 01, 2025: Updated statistics to reflect 80+ cases and R$ 250M+ traced values
+- July 01, 2025: Improved expert profile with 5 specific credentials (Computer Engineering, Forensic Science, Criminology, Cybersecurity, Cyber Defender)
+- July 01, 2025: Created dedicated articles page with functional navigation and detailed forensic content
+- July 01, 2025: Removed confusing "STATUS: OPERACIONAL" elements from services
+- July 01, 2025: Enhanced about section with specialized technical capabilities display
 ```
 
 ## User Preferences

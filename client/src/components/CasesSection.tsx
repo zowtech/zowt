@@ -142,11 +142,11 @@ export function CasesSection() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-green-400 mb-2">10+</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">80+</div>
               <div className="text-gray-300 text-sm font-mono">CASOS RESOLVIDOS</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-400 mb-2">R$ 50M+</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">R$ 250M+</div>
               <div className="text-gray-300 text-sm font-mono">VALORES RASTREADOS</div>
             </div>
             <div>

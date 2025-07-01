@@ -96,6 +96,13 @@ export function ServicesSection() {
         'Análise de conformidade FATF',
         'Relatórios de atividades suspeitas',
         'Documentação regulatória especializada'
+      ],
+      'services.network.title': [
+        'Análise de protocolos de rede TCP/IP',
+        'Captura e exame de pacotes de dados',
+        'Investigação de comunicações clandestinas',
+        'Análise forense de logs de firewall',
+        'Mapeamento de infraestrutura de rede'
       ]
     };
     return topics[serviceKey] || [];
@@ -179,6 +186,12 @@ export function ServicesSection() {
       titleKey: 'services.sar.title',
       descKey: 'services.sar.desc',
       color: 'text-violet-400'
+    },
+    {
+      icon: Wifi,
+      titleKey: 'services.network.title',
+      descKey: 'services.network.desc',
+      color: 'text-teal-400'
     }
   ];
 
@@ -236,11 +249,7 @@ export function ServicesSection() {
                       </div>
                       
                       <div className="mt-6 text-sm">
-                        <div className="h-px bg-gradient-to-r from-bright-blue/50 to-transparent mb-4"></div>
-                        <div className="flex items-center text-bright-blue/70">
-                          <Terminal className="h-4 w-4 mr-2" />
-                          <span className="font-mono text-xs">STATUS: OPERACIONAL</span>
-                        </div>
+                        <div className="h-px bg-gradient-to-r from-bright-blue/50 to-transparent"></div>
                       </div>
                     </div>
                   </div>
