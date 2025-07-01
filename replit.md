@@ -115,6 +115,7 @@ Changelog:
 - July 01, 2025: Rebranded from Lucas Alberto to ZowTech company with custom SVG logo, updated navigation, footer, and all branding elements
 - July 01, 2025: Updated brand name to ZOWTECHNOLOGY with new cyber-themed hexagonal logo featuring circuit patterns and digital nodes
 - July 01, 2025: Simplified brand to "ZowT" with clean text-based logo, removed complex SVG graphics per user feedback
+- July 01, 2025: Enhanced technical capabilities across key services: advanced network traffic analysis, comprehensive SAR/FATF reporting, international AML/CFT compliance, OSINT/SOC/HUMINT operations, and complete corporate due diligence
 ```
 
 ## User Preferences

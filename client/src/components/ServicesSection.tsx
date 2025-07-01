@@ -49,11 +49,12 @@ export function ServicesSection() {
         'Treinamento em proteção de dados'
       ],
       'services.diligence.title': [
-        'Background check digital completo',
-        'Verificação de reputação online',
-        'Análise de ativos digitais',
-        'Investigação de histórico corporativo',
-        'Verificação de sanções e PEPs'
+        'Due diligence corporativa completa com análise patrimonial e societária',
+        'Background check executivo internacional e verificação de credenciais',
+        'Investigação de reputação digital e presença em mídias globais',
+        'Análise de relacionamentos políticos, PEPs e listas de sanções internacionais',
+        'Auditoria de ativos offshore, trusts e estruturas societárias complexas',
+        'Verificação de litígios, processos judiciais e histórico regulatório'
       ],
       'services.corporate.title': [
         'Investigação de vazamentos internos',
@@ -70,11 +71,12 @@ export function ServicesSection() {
         'Análise de conflitos de interesse'
       ],
       'services.profiling.title': [
-        'Análise comportamental digital',
-        'Investigação OSINT avançada',
-        'Criação de perfis criminais',
-        'Análise de redes de relacionamento',
-        'Investigação em dark web'
+        'Rastreamento digital avançado e geolocalização de alvos',
+        'OSINT técnico com automação e ferramentas especializadas',
+        'Operações SOC (Security Operations Center) e threat hunting',
+        'HUMINT digital e análise de redes sociais corporativas',
+        'Investigação em dark web e marketplaces clandestinos',
+        'Correlação de dados de múltiplas fontes abertas e fechadas'
       ],
       'services.blockchain.title': [
         'Rastreamento de criptomoedas',
@@ -84,25 +86,28 @@ export function ServicesSection() {
         'Análise de smart contracts'
       ],
       'services.aml.title': [
-        'Análise de operações suspeitas',
-        'Monitoramento de transações',
-        'Identificação de lavagem de dinheiro',
-        'Compliance bancário e financeiro',
-        'Análise de risco de clientes'
+        'Implementação de programas AML/CFT para instituições financeiras e não-financeiras',
+        'Análise de compliance internacional (BSA, EU AMLD, UK MLR, AUSTRAC)',
+        'Due diligence aprimorada (Enhanced Due Diligence) e KYC automatizado',
+        'Desenvolvimento de políticas corporativas anti-lavagem e CFT',
+        'Auditoria de sistemas de monitoramento transacional e screening automatizado',
+        'Treinamento executivo em compliance regulatório global e gestão de riscos'
       ],
       'services.sar.title': [
-        'Elaboração de RIF (Relatórios de Inteligência Financeira)',
-        'Comunicações ao COAF',
-        'Análise de conformidade FATF',
-        'Relatórios de atividades suspeitas',
-        'Documentação regulatória especializada'
+        'Elaboração técnica de SAR (Suspicious Activity Reports) conforme padrões FATF',
+        'Análise de tipologias de lavagem de dinheiro e financiamento ao terrorismo',
+        'Estruturação de RIF (Relatórios de Inteligência Financeira) para COAF/FIU',
+        'Compliance com recomendações FATF (40 Recommendations) e GAFI standards',
+        'Análise de red flags em transações e padrões comportamentais suspeitos',
+        'Documentação técnica para unidades de inteligência financeira internacionais'
       ],
       'services.network.title': [
-        'Análise de protocolos de rede TCP/IP',
-        'Captura e exame de pacotes de dados',
-        'Investigação de comunicações clandestinas',
-        'Análise forense de logs de firewall',
-        'Mapeamento de infraestrutura de rede'
+        'Deep Packet Inspection (DPI) e análise comportamental de tráfego',
+        'Análise forense de protocolos IPv4/IPv6, DNS, HTTP/HTTPS, TLS/SSL',
+        'Detecção de túneis criptografados e comunicações ocultas (covert channels)',
+        'Correlação de logs SIEM, NetFlow/sFlow e análise temporal de incidentes',
+        'Reconstrução forense de sessões de rede e análise de payload malicioso',
+        'Investigação de botnets, C&C servers e análise de IOCs de rede'
       ]
     };
     return topics[serviceKey] || [];
