@@ -287,8 +287,8 @@ export default function Articles() {
                 {/* Right Stats */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-slate-900/50 rounded-xl border border-slate-700/50">
-                    <div className="text-2xl font-bold text-bright-blue mb-1">5+</div>
-                    <div className="text-sm text-gray-400">Anos de Experience</div>
+                    <div className="text-2xl font-bold text-bright-blue mb-1">10+</div>
+                    <div className="text-sm text-gray-400">Anos de Experiência</div>
                   </div>
                   <div className="text-center p-4 bg-slate-900/50 rounded-xl border border-slate-700/50">
                     <div className="text-2xl font-bold text-bright-blue mb-1">80+</div>
