@@ -1,4 +1,4 @@
-import { Search, Shield, Mail, FileText, Video, ClipboardCheck } from 'lucide-react';
+import { Search, Shield, Mail, FileText, Video, ClipboardCheck, Fingerprint, Database, Eye, Wifi, Terminal, ScanLine } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export function ServicesSection() {
@@ -6,34 +6,40 @@ export function ServicesSection() {
 
   const services = [
     {
-      icon: Search,
+      icon: Fingerprint,
       titleKey: 'services.forensics.title',
-      descKey: 'services.forensics.desc'
+      descKey: 'services.forensics.desc',
+      color: 'text-blue-400'
     },
     {
       icon: Shield,
       titleKey: 'services.fraud.title',
-      descKey: 'services.fraud.desc'
+      descKey: 'services.fraud.desc',
+      color: 'text-red-400'
     },
     {
-      icon: Mail,
+      icon: Eye,
       titleKey: 'services.email.title',
-      descKey: 'services.email.desc'
+      descKey: 'services.email.desc',
+      color: 'text-green-400'
     },
     {
-      icon: FileText,
+      icon: Terminal,
       titleKey: 'services.reports.title',
-      descKey: 'services.reports.desc'
+      descKey: 'services.reports.desc',
+      color: 'text-purple-400'
     },
     {
-      icon: Video,
+      icon: ScanLine,
       titleKey: 'services.tampering.title',
-      descKey: 'services.tampering.desc'
+      descKey: 'services.tampering.desc',
+      color: 'text-yellow-400'
     },
     {
-      icon: ClipboardCheck,
+      icon: Database,
       titleKey: 'services.compliance.title',
-      descKey: 'services.compliance.desc'
+      descKey: 'services.compliance.desc',
+      color: 'text-cyan-400'
     }
   ];
 
@@ -61,10 +67,12 @@ export function ServicesSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-bright-blue/10 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative bg-slate-800/80 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-bright-blue/50 transition-all duration-300">
                   <div className="relative">
-                    <div className="absolute inset-0 bg-bright-blue/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150"></div>
-                    <div className="relative text-bright-blue text-4xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div className={`absolute inset-0 ${service.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
+                    <div className={`relative ${service.color} text-4xl mb-6 group-hover:scale-110 transition-transform duration-300`}>
                       <IconComponent className="h-12 w-12" />
                     </div>
+                    {/* Scanning line effect */}
+                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-bright-blue to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                   <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-bright-blue transition-colors duration-300">
                     {t(service.titleKey)}

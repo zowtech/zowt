@@ -220,3 +220,52 @@ html {
 .text-shadow-lg {
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+/* Forensic scanner effects */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes dataStream {
+  0% { transform: translateX(-100%); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes forensicBlink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.3; }
+}
+
+.scanner-line {
+  animation: scanline 3s linear infinite;
+}
+
+.data-stream {
+  animation: dataStream 2s ease-in-out infinite;
+}
+
+.forensic-blink {
+  animation: forensicBlink 2s ease-in-out infinite;
+}
+
+/* Matrix-like background effect */
+.matrix-bg {
+  background-image: 
+    linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Terminal cursor blink */
+@keyframes terminalCursor {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.terminal-cursor::after {
+  content: '_';
+  animation: terminalCursor 1s infinite;
+  color: #3b82f6;
+}

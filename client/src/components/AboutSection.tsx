@@ -21,18 +21,55 @@ export function AboutSection() {
               {t('about.description')}
             </p>
             
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <GraduationCap className="text-bright-blue h-6 w-6 mr-4" />
-                <span className="text-gray-300">{t('about.education')}</span>
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 gap-4">
+                <div className="flex items-center group">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-blue-400/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <GraduationCap className="relative text-blue-400 h-6 w-6 mr-4 group-hover:scale-110 transition-transform duration-300" />
+                  </div>
+                  <span className="text-gray-300">{t('about.education')}</span>
+                </div>
+                <div className="flex items-center group">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-green-400/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <Award className="relative text-green-400 h-6 w-6 mr-4 group-hover:scale-110 transition-transform duration-300" />
+                  </div>
+                  <span className="text-gray-300">{t('about.cert')}</span>
+                </div>
+                <div className="flex items-center group">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-purple-400/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <Scale className="relative text-purple-400 h-6 w-6 mr-4 group-hover:scale-110 transition-transform duration-300" />
+                  </div>
+                  <span className="text-gray-300">{t('about.legal')}</span>
+                </div>
               </div>
-              <div className="flex items-center">
-                <Award className="text-bright-blue h-6 w-6 mr-4" />
-                <span className="text-gray-300">{t('about.cert')}</span>
-              </div>
-              <div className="flex items-center">
-                <Scale className="text-bright-blue h-6 w-6 mr-4" />
-                <span className="text-gray-300">{t('about.legal')}</span>
+              
+              {/* Painel de Credenciais Forenses */}
+              <div className="glass p-6 rounded-xl border border-bright-blue/30 mt-6">
+                <div className="flex items-center mb-4">
+                  <div className="h-3 w-3 bg-red-500 rounded-full mr-2 animate-pulse"></div>
+                  <h4 className="text-lg font-semibold text-bright-blue font-mono">SECURITY CLEARANCE</h4>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-300 font-mono text-sm">DIGITAL FORENSICS</span>
+                    <span className="text-green-400 font-mono text-sm">✓ AUTHORIZED</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-300 font-mono text-sm">CYBER INVESTIGATION</span>
+                    <span className="text-green-400 font-mono text-sm">✓ CERTIFIED</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-300 font-mono text-sm">EVIDENCE ANALYSIS</span>
+                    <span className="text-yellow-400 font-mono text-sm">★ ELITE</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-300 font-mono text-sm">CASE RESOLUTION</span>
+                    <span className="text-red-400 font-mono text-sm">⬤ CLASSIFIED</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

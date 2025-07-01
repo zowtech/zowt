@@ -20,8 +20,19 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <span className="text-xl font-bold text-bright-blue">Lucas Alberto</span>
-            <span className="ml-2 text-sm text-gray-300">Perito Criminal Cibernético</span>
+            <div className="flex items-center mr-4">
+              <div className="h-8 w-8 bg-gradient-to-br from-bright-blue to-blue-600 rounded-full flex items-center justify-center mr-3">
+                <span className="text-white text-xs font-bold">LA</span>
+              </div>
+              <div>
+                <span className="text-xl font-bold text-bright-blue">Lucas Alberto</span>
+                <div className="text-xs text-gray-400 font-mono">ID: CYB-FORENSIC-2025</div>
+              </div>
+            </div>
+            <div className="hidden lg:flex items-center ml-4 glass px-3 py-1 rounded-full">
+              <div className="h-2 w-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+              <span className="text-xs text-gray-300 font-mono">SYSTEM ACTIVE</span>
+            </div>
           </div>
           
           {/* Desktop Navigation */}
