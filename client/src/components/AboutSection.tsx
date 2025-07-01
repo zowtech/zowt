@@ -104,41 +104,95 @@ export function AboutSection() {
             </div>
           </div>
           
-          {/* Foto do Perito */}
+          {/* Perfil do Perito */}
           <div className="relative">
-            <div className="relative glass rounded-2xl overflow-hidden border border-bright-blue/30">
-              <div className="aspect-[4/5] bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-bright-blue/20 to-purple-500/20 flex items-center justify-center border-2 border-bright-blue/30">
-                    <Users className="h-16 w-16 text-bright-blue" />
+            <div className="relative glass rounded-2xl overflow-hidden border border-bright-blue/30 p-6">
+              
+              {/* Header do Perfil */}
+              <div className="text-center mb-6">
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-bright-blue/20 to-purple-500/20 flex items-center justify-center border-2 border-bright-blue/30">
+                  <Users className="h-12 w-12 text-bright-blue" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-1">Lucas Alberto</h3>
+                <p className="text-bright-blue font-mono text-sm">CYBER FORENSIC EXPERT</p>
+                <div className="mt-2 px-3 py-1 bg-green-500/20 text-green-400 text-xs font-mono rounded-full border border-green-400/30">
+                  8+ ANOS DE EXPERIÊNCIA
+                </div>
+              </div>
+              
+              {/* Certificações Adicionais */}
+              <div className="space-y-3 mb-6">
+                <h4 className="text-sm font-mono text-bright-blue mb-3">CERTIFICAÇÕES TÉCNICAS:</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-green-400 rounded-full mr-3"></div>
+                    <span>Certificado em Análise Forense</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Lucas Alberto</h3>
-                  <p className="text-bright-blue font-mono text-sm">CYBER FORENSIC EXPERT</p>
-                  <div className="mt-4 text-xs text-gray-400 font-mono">
-                    <div className="mb-1">● BLOCKCHAIN SPECIALIST</div>
-                    <div className="mb-1">● CRYPTOCURRENCY INVESTIGATOR</div>
-                    <div>● DIGITAL EVIDENCE ANALYST</div>
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-blue-400 rounded-full mr-3"></div>
+                    <span>Blockchain Analysis Certified</span>
+                  </div>
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-purple-400 rounded-full mr-3"></div>
+                    <span>Digital Evidence Specialist</span>
+                  </div>
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-orange-400 rounded-full mr-3"></div>
+                    <span>AML/CFT Compliance Expert</span>
+                  </div>
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-red-400 rounded-full mr-3"></div>
+                    <span>OSINT Intelligence Analyst</span>
                   </div>
                 </div>
               </div>
               
-              {/* Badge de Classificação */}
-              <div className="absolute top-4 right-4">
-                <div className="px-3 py-1 bg-green-500/90 text-white text-xs font-mono rounded-full border border-green-400">
-                  CERTIFIED
+              {/* Resumo Operacional */}
+              <div className="glass p-4 rounded-xl border border-bright-blue/20 mb-6">
+                <h4 className="text-sm font-mono text-bright-blue mb-3">RESUMO OPERACIONAL:</h4>
+                <div className="grid grid-cols-2 gap-4 text-xs">
+                  <div className="text-center">
+                    <div className="text-lg font-bold text-white">80+</div>
+                    <div className="text-gray-400 font-mono">CASOS RESOLVIDOS</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-lg font-bold text-white">R$ 20M+</div>
+                    <div className="text-gray-400 font-mono">VALORES RASTREADOS</div>
+                  </div>
                 </div>
               </div>
               
-              {/* Status Operacional */}
-              <div className="absolute bottom-4 left-4 right-4">
-                <div className="glass p-3 rounded-lg border border-bright-blue/30">
-                  <div className="flex items-center justify-between text-xs font-mono">
-                    <div className="flex items-center text-green-400">
-                      <div className="h-2 w-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
-                      <span>OPERACIONAL</span>
-                    </div>
-                    <div className="text-bright-blue">24/7</div>
+              {/* Especializações Principais */}
+              <div className="space-y-2">
+                <h4 className="text-sm font-mono text-bright-blue mb-3">ESPECIALIZAÇÕES:</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-cyan-400 rounded-full mr-3"></div>
+                    <span>Investigação de Criptomoedas</span>
                   </div>
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-yellow-400 rounded-full mr-3"></div>
+                    <span>Análise de Fraudes Digitais</span>
+                  </div>
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-pink-400 rounded-full mr-3"></div>
+                    <span>Perícias Judiciais</span>
+                  </div>
+                  <div className="flex items-center text-xs text-gray-300">
+                    <div className="h-1 w-1 bg-indigo-400 rounded-full mr-3"></div>
+                    <span>Due Diligence Digital</span>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Status */}
+              <div className="mt-6 glass p-3 rounded-lg border border-bright-blue/30">
+                <div className="flex items-center justify-between text-xs font-mono">
+                  <div className="flex items-center text-green-400">
+                    <div className="h-2 w-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+                    <span>OPERACIONAL</span>
+                  </div>
+                  <div className="text-bright-blue">24/7</div>
                 </div>
               </div>
             </div>

@@ -100,6 +100,10 @@ Changelog:
 - July 01, 2025: Created dedicated articles page with functional navigation and detailed forensic content
 - July 01, 2025: Removed confusing "STATUS: OPERACIONAL" elements from services
 - July 01, 2025: Enhanced about section with specialized technical capabilities display
+- July 01, 2025: Corrected statistics to R$ 20M+ traced values (user feedback)
+- July 01, 2025: Added "Certificado em Análise Forense" and "8+ Anos de experiência" to expert profile
+- July 01, 2025: Redesigned articles page with modern layout featuring hero section, featured article grid, and newsletter signup
+- July 01, 2025: Improved expert profile section with additional certifications and technical specializations
 ```
 
 ## User Preferences
