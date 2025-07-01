@@ -1,4 +1,4 @@
-import { Search, Shield, Mail, FileText, Video, ClipboardCheck, Fingerprint, Database, Eye, Wifi, Terminal, ScanLine } from 'lucide-react';
+import { Search, Shield, Mail, FileText, Video, ClipboardCheck, Fingerprint, Database, Eye, Wifi, Terminal, ScanLine, Building, ShieldCheck, AlertTriangle } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export function ServicesSection() {
@@ -40,6 +40,24 @@ export function ServicesSection() {
       titleKey: 'services.compliance.title',
       descKey: 'services.compliance.desc',
       color: 'text-cyan-400'
+    },
+    {
+      icon: Search,
+      titleKey: 'services.diligence.title',
+      descKey: 'services.diligence.desc',
+      color: 'text-orange-400'
+    },
+    {
+      icon: Building,
+      titleKey: 'services.corporate.title',
+      descKey: 'services.corporate.desc',
+      color: 'text-indigo-400'
+    },
+    {
+      icon: ShieldCheck,
+      titleKey: 'services.anticorruption.title',
+      descKey: 'services.anticorruption.desc',
+      color: 'text-emerald-400'
     }
   ];
 

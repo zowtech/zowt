@@ -44,6 +44,12 @@ const translations = {
     'services.tampering.desc': 'Análise de áudio, vídeo e documentos para detectar alterações',
     'services.compliance.title': 'Consultoria em LGPD e Compliance',
     'services.compliance.desc': 'Orientação sobre proteção de dados e conformidade digital',
+    'services.diligence.title': 'Due Diligence Digital',
+    'services.diligence.desc': 'Verificação completa de ativos digitais, reputação e integridade corporativa',
+    'services.corporate.title': 'Investigação de Fraude Corporativa',
+    'services.corporate.desc': 'Detecção de irregularidades internas, vazamentos e má conduta empresarial',
+    'services.anticorruption.title': 'Análise Anti-Corrupção',
+    'services.anticorruption.desc': 'Investigação de práticas corruptas e análise de compliance regulatório',
     
     // About
     'about.title': 'Sobre o Perito',
@@ -144,6 +150,12 @@ const translations = {
     'services.tampering.desc': 'Analysis of audio, video and documents to detect alterations',
     'services.compliance.title': 'LGPD Compliance and Digital Risk Consulting',
     'services.compliance.desc': 'Guidance on data protection and digital compliance',
+    'services.diligence.title': 'Digital Due Diligence',
+    'services.diligence.desc': 'Complete verification of digital assets, reputation and corporate integrity',
+    'services.corporate.title': 'Corporate Fraud Investigation',
+    'services.corporate.desc': 'Detection of internal irregularities, data breaches and corporate misconduct',
+    'services.anticorruption.title': 'Anti-Corruption Analysis',
+    'services.anticorruption.desc': 'Investigation of corrupt practices and regulatory compliance analysis',
     
     // About
     'about.title': 'About the Expert',
