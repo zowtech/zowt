@@ -12,7 +12,7 @@ export function BlogSection() {
     readTime: '5 min',
     category: 'Análise Forense',
     tags: ['Email Spoofing', 'Headers', 'Perícia'],
-    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgdmlld0JveD0iMCAwIDQwMCAyNDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjQwIiBmaWxsPSIjMUUyOTNiIi8+CjxyZWN0IHg9IjIwIiB5PSI2MCIgd2lkdGg9IjM2MCIgaGVpZ2h0PSIxMjAiIHJ4PSI4IiBmaWxsPSIjNDc0RjU5IiBmaWxsLW9wYWNpdHk9IjAuMiIvPgo8cGF0aCBkPSJNODAgMTEwaDI0MHYyMEg4MHoiIGZpbGw9IiM2M0I0RkYiLz4KPHA8dGggZD0iTTgwIDEzNWgyMDB2MTBIODB6IiBmaWxsPSIjOTCA5NTk2Ii8+CjxwYXRoIGQ9Ik04MCAxNTBoMTYwdjZIODB6IiBmaWxsPSIjOTQ5NTk2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjNCNEZGIiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiPkFuw6FsaXNlIEZvcmVuc2U8L3RleHQ+Cjwvc3ZnPgo='
+    image: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=600&h=400&fit=crop&crop=center'
   };
 
   const recentArticles = [
@@ -21,14 +21,14 @@ export function BlogSection() {
       date: '2024-12-15',
       readTime: '7 min',
       category: 'Cibersegurança',
-      image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjE2MCIgdmlld0JveD0iMCAwIDMwMCAxNjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMTYwIiBmaWxsPSIjMUUyOTNiIi8+CjxjaXJjbGUgY3g9IjE1MCIgY3k9IjgwIiByPSI0MCIgc3Ryb2tlPSIjNjNCNEZGIiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiLz4KPHA8YXRoIGQ9Ik0xNDAgNzBsOCAxMCAxMi0yMCIgc3Ryb2tlPSIjNjNCNEZGIiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiLz4KPHA8dGggZD0iTTEyNSAxMTBoNTB2M2gtNTB6IiBmaWxsPSIjOTQ5NTk2Ii8+CjxwYXRoIGQ9Ik0xMzUgMTIwaCAzMHYyaC0zMHoiIGZpbGw9IiM5NDk1OTYiLz4KPHA8dGggZD0iTTE0NSAxMzBoMjB2MmgtMjB6IiBmaWxsPSIjOTQ5NTk2Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjNCNEZGIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwiPkNpYmVyc2VndXJhbsOnYTwvdGV4dD4KPC9zdmc+Cg=='
+      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=250&fit=crop&crop=center'
     },
     {
       titleKey: 'blog.article3.title',
       date: '2024-11-20',
       readTime: '6 min',
       category: 'Investigação',
-      image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjE2MCIgdmlld0JveD0iMCAwIDMwMCAxNjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMTYwIiBmaWxsPSIjMUUyOTNiIi8+CjxyZWN0IHg9IjUwIiB5PSI0MCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSI4MCIgcng9IjQiIGZpbGw9IiM0NzRGNTkiIGZpbGwtb3BhY2l0eT0iMC4zIi8+CjxjaXJjbGUgY3g9IjIyMCIgY3k9IjYwIiByPSIyMCIgZmlsbD0iIzYzQjRGRiIgZmlsbC1vcGFjaXR5PSIwLjIiLz4KPHA8YXRoIGQ9Ik0yMTUgNTVsNSA1IDEwLTEwIiBzdHJva2U9IiM2M0I0RkYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNNzAgNzBoMTIwdjRINzB6IiBmaWxsPSIjOTQ5NTk2Ii8+CjxwYXRoIGQ9Ik03MCA4MGgxMDB2M0g3MHoiIGZpbGw9IiM5NDk1OTYiLz4KPHA8dGggZD0iTTcwIDkwaDgwdjJINzB6IiBmaWxsPSIjOTQ5NTk2Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTQ1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjNCNEZGIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwiPkludmVzdGlnYcOnw6NvPC90ZXh0Pgo8L3N2Zz4K'
+      image: 'https://images.unsplash.com/photo-1551808525-51a94da548ce?w=400&h=250&fit=crop&crop=center'
     }
   ];
 
