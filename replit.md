@@ -120,6 +120,8 @@ Changelog:
 - July 01, 2025: Removed "FOUNDER & CEO • ZOWT" title from about section, removed "digital" from Due Diligence, and changed "Perícias Judiciais" to "Consultoria em Cibersegurança"
 - July 02, 2025: Enhanced "Casos Atendidos" section with realistic high-profile cybercrime cases featuring specific technical details, monetary values, and professional investigation outcomes
 - July 02, 2025: Refined cases portfolio based on user feedback: focused on cryptocurrency fraud, phishing, credit card schemes via Telegram, anti-corruption with employee focus, political fake profiles, doxing/extortion, and employee fraud cases
+- July 02, 2025: Completely redesigned cases portfolio with more diverse and technical content: banking ransomware, financial deepfakes, corporate APT tracking, NFT money laundering, virtual kidnapping, insider trading, industrial espionage, electoral manipulation, international sextortion, and judicial fraud
+- July 02, 2025: Improved cases section layout responsiveness by simplifying card structure and removing fixed heights
 ```
 
 ## User Preferences
