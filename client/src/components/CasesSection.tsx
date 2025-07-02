@@ -108,23 +108,23 @@ export function CasesSection() {
                     </div>
                   </div>
                   
-                  <div className="flex items-start gap-3 mb-4 flex-shrink-0">
-                    <div className="relative mt-0.5 flex-shrink-0">
-                      <div className={`absolute inset-0 ${caseItem.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
-                      <div className={`relative ${caseItem.color} group-hover:scale-110 transition-transform duration-300 inline-block`}>
-                        <IconComponent className="h-6 w-6 sm:h-7 sm:w-7" />
+                  <div className="mb-4 flex-shrink-0">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="relative flex-shrink-0">
+                        <div className={`absolute inset-0 ${caseItem.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
+                        <div className={`relative ${caseItem.color} group-hover:scale-110 transition-transform duration-300 inline-block`}>
+                          <IconComponent className="h-5 w-5 sm:h-6 sm:w-6" />
+                        </div>
                       </div>
                     </div>
                     
-                    <div className="flex-1 min-w-0">
-                      <h3 className="text-sm sm:text-base font-semibold text-white group-hover:text-bright-blue transition-colors duration-300 leading-tight hyphens-none">
-                        {t(caseItem.titleKey)}
-                      </h3>
-                    </div>
+                    <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-white group-hover:text-bright-blue transition-colors duration-300 leading-snug">
+                      {t(caseItem.titleKey)}
+                    </h3>
                   </div>
                   
                   <div className="flex-1">
-                    <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300 mb-4">
+                    <p className="text-gray-300 text-xs sm:text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300 mb-4">
                       {t(caseItem.descKey)}
                     </p>
                   </div>
