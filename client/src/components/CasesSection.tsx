@@ -108,16 +108,18 @@ export function CasesSection() {
                     </div>
                   </div>
                   
-                  <div className="relative mb-4 flex-shrink-0">
-                    <div className={`absolute inset-0 ${caseItem.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
-                    <div className={`relative ${caseItem.color} group-hover:scale-110 transition-transform duration-300 inline-block`}>
-                      <IconComponent className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8" />
+                  <div className="flex items-start gap-3 mb-3 sm:mb-4 flex-shrink-0">
+                    <div className="relative mt-0.5">
+                      <div className={`absolute inset-0 ${caseItem.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
+                      <div className={`relative ${caseItem.color} group-hover:scale-110 transition-transform duration-300 inline-block`}>
+                        <IconComponent className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8" />
+                      </div>
                     </div>
+                    
+                    <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-bright-blue transition-colors duration-300 pr-8 leading-tight">
+                      {t(caseItem.titleKey)}
+                    </h3>
                   </div>
-                  
-                  <h3 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3 text-white group-hover:text-bright-blue transition-colors duration-300 pr-12 flex-shrink-0">
-                    {t(caseItem.titleKey)}
-                  </h3>
                   
                   <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed group-hover:text-gray-200 transition-colors duration-300 flex-1 min-h-[2.5rem] sm:min-h-[3rem]">
                     {t(caseItem.descKey)}
