@@ -118,6 +118,7 @@ Changelog:
 - July 01, 2025: Enhanced technical capabilities across key services: advanced network traffic analysis, comprehensive SAR/FATF reporting, international AML/CFT compliance, OSINT/SOC/HUMINT operations, and complete corporate due diligence
 - July 01, 2025: Corrected "OSINT, SOC & HUMINT" to "OSINT & SOCMINT" and reduced description lengths to fix card layout alignment issues
 - July 01, 2025: Removed "FOUNDER & CEO • ZOWT" title from about section, removed "digital" from Due Diligence, and changed "Perícias Judiciais" to "Consultoria em Cibersegurança"
+- July 02, 2025: Enhanced "Casos Atendidos" section with realistic high-profile cybercrime cases featuring specific technical details, monetary values, and professional investigation outcomes
 ```
 
 ## User Preferences

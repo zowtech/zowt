@@ -10,70 +10,70 @@ export function CasesSection() {
       titleKey: 'cases.financial.title',
       descKey: 'cases.financial.desc',
       color: 'text-amber-400',
-      status: 'RESOLVIDO'
+      status: 'CONDENAÇÃO'
     },
     {
       icon: Building,
       titleKey: 'cases.identity.title',
       descKey: 'cases.identity.desc',
       color: 'text-red-400',
-      status: 'CLASSIFICADO'
+      status: 'INTERCEPTADO'
     },
     {
       icon: Bug,
       titleKey: 'cases.hacking.title',
       descKey: 'cases.hacking.desc',
       color: 'text-purple-400',
-      status: 'CRÍTICO'
+      status: 'ATRIBUÍDO'
     },
     {
       icon: Video,
       titleKey: 'cases.deepfake.title',
       descKey: 'cases.deepfake.desc',
       color: 'text-pink-400',
-      status: 'PERÍCIA'
+      status: 'COMPROVADO'
     },
     {
       icon: CreditCard,
       titleKey: 'cases.crypto.title',
       descKey: 'cases.crypto.desc',
       color: 'text-blue-400',
-      status: 'RASTREADO'
+      status: 'RECUPERADO'
     },
     {
       icon: AlertTriangle,
       titleKey: 'cases.corruption.title',
       descKey: 'cases.corruption.desc',
       color: 'text-orange-400',
-      status: 'EXPOSTO'
+      status: 'DOCUMENTADO'
     },
     {
       icon: Database,
       titleKey: 'cases.data.title',
       descKey: 'cases.data.desc',
       color: 'text-cyan-400',
-      status: 'AUDITADO'
+      status: 'INVESTIGADO'
     },
     {
       icon: Users,
       titleKey: 'cases.social.title',
       descKey: 'cases.social.desc',
       color: 'text-green-400',
-      status: 'MAPEADO'
+      status: 'DESARTICULADO'
     },
     {
       icon: UserX,
       titleKey: 'cases.extortion.title',
       descKey: 'cases.extortion.desc',
       color: 'text-red-500',
-      status: 'NEUTRALIZADO'
+      status: 'PRESO'
     },
     {
       icon: TrendingUp,
       titleKey: 'cases.insider.title',
       descKey: 'cases.insider.desc',
       color: 'text-violet-400',
-      status: 'COMPROVADO'
+      status: 'PROCESSADO'
     }
   ];
 
