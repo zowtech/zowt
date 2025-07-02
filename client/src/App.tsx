@@ -6,6 +6,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Home from "@/pages/Home";
 import Articles from "@/pages/Articles";
+import Privacy from "@/pages/Privacy";
+import Terms from "@/pages/Terms";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -13,6 +15,8 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/artigos" component={Articles} />
+      <Route path="/privacidade" component={Privacy} />
+      <Route path="/termos" component={Terms} />
       <Route component={NotFound} />
     </Switch>
   );

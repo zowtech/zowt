@@ -1,4 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Link } from 'wouter';
 
 export function Footer() {
   const { t } = useLanguage();
@@ -56,14 +57,14 @@ export function Footer() {
             </h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <button className="hover:text-bright-blue transition duration-300">
+                <Link href="/privacidade" className="hover:text-bright-blue transition duration-300">
                   {t('footer.legal.privacy')}
-                </button>
+                </Link>
               </li>
               <li>
-                <button className="hover:text-bright-blue transition duration-300">
+                <Link href="/termos" className="hover:text-bright-blue transition duration-300">
                   {t('footer.legal.terms')}
-                </button>
+                </Link>
               </li>
             </ul>
           </div>
