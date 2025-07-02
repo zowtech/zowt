@@ -49,34 +49,28 @@ export function ServicesSection() {
         'Treinamento em proteção de dados'
       ],
       'services.diligence.title': [
-        'Due diligence corporativa completa com análise patrimonial e societária',
-        'Background check executivo internacional e verificação de credenciais',
-        'Investigação de reputação digital e presença em mídias globais',
-        'Análise de relacionamentos políticos, PEPs e listas de sanções internacionais',
-        'Auditoria de ativos offshore, trusts e estruturas societárias complexas',
-        'Verificação de litígios, processos judiciais e histórico regulatório'
+        'Análise patrimonial e background check executivo',
+        'Investigação de reputação digital e PEPs',
+        'Auditoria de ativos offshore e estruturas complexas',
+        'Verificação de litígios e histórico regulatório'
       ],
       'services.corporate.title': [
         'Investigação de vazamentos internos',
         'Análise de má conduta empresarial',
         'Detecção de espionagem corporativa',
-        'Auditoria de segurança interna',
-        'Investigação de conflitos de interesse'
+        'Auditoria de segurança interna'
       ],
       'services.anticorruption.title': [
         'Investigação de práticas corruptas',
         'Análise de compliance anti-corrupção',
         'Auditoria de processos éticos',
-        'Detecção de irregularidades contratuais',
-        'Análise de conflitos de interesse'
+        'Detecção de irregularidades contratuais'
       ],
       'services.profiling.title': [
-        'Rastreamento digital avançado e geolocalização de alvos',
-        'OSINT técnico com automação e ferramentas especializadas',
-        'Operações SOC (Security Operations Center) e threat hunting',
-        'HUMINT digital e análise de redes sociais corporativas',
-        'Investigação em dark web e marketplaces clandestinos',
-        'Correlação de dados de múltiplas fontes abertas e fechadas'
+        'OSINT técnico e automação especializada',
+        'Operações SOC e threat hunting',
+        'Análise de mídias sociais corporativas',
+        'Investigação em dark web e marketplaces'
       ],
       'services.blockchain.title': [
         'Rastreamento de criptomoedas',
@@ -86,28 +80,22 @@ export function ServicesSection() {
         'Análise de smart contracts'
       ],
       'services.aml.title': [
-        'Implementação de programas AML/CFT para instituições financeiras e não-financeiras',
-        'Análise de compliance internacional (BSA, EU AMLD, UK MLR, AUSTRAC)',
-        'Due diligence aprimorada (Enhanced Due Diligence) e KYC automatizado',
-        'Desenvolvimento de políticas corporativas anti-lavagem e CFT',
-        'Auditoria de sistemas de monitoramento transacional e screening automatizado',
-        'Treinamento executivo em compliance regulatório global e gestão de riscos'
+        'Implementação de programas AML/CFT corporativos',
+        'Compliance internacional (BSA, EU AMLD, UK MLR)',
+        'Due diligence aprimorada e KYC automatizado',
+        'Auditoria de sistemas de monitoramento transacional'
       ],
       'services.sar.title': [
-        'Elaboração técnica de SAR (Suspicious Activity Reports) conforme padrões FATF',
-        'Análise de tipologias de lavagem de dinheiro e financiamento ao terrorismo',
-        'Estruturação de RIF (Relatórios de Inteligência Financeira) para COAF/FIU',
-        'Compliance com recomendações FATF (40 Recommendations) e GAFI standards',
-        'Análise de red flags em transações e padrões comportamentais suspeitos',
-        'Documentação técnica para unidades de inteligência financeira internacionais'
+        'Elaboração de SAR conforme padrões FATF',
+        'Análise de tipologias de lavagem e financiamento',
+        'Estruturação de RIF para COAF/FIU',
+        'Documentação para unidades de inteligência financeira'
       ],
       'services.network.title': [
-        'Deep Packet Inspection (DPI) e análise comportamental de tráfego',
-        'Análise forense de protocolos IPv4/IPv6, DNS, HTTP/HTTPS, TLS/SSL',
-        'Detecção de túneis criptografados e comunicações ocultas (covert channels)',
-        'Correlação de logs SIEM, NetFlow/sFlow e análise temporal de incidentes',
-        'Reconstrução forense de sessões de rede e análise de payload malicioso',
-        'Investigação de botnets, C&C servers e análise de IOCs de rede'
+        'Deep Packet Inspection (DPI) e análise de tráfego',
+        'Análise forense de protocolos (IPv4/IPv6, DNS, TLS)',
+        'Detecção de túneis criptografados e comunicações ocultas',
+        'Investigação de botnets e análise de IOCs de rede'
       ]
     };
     return topics[serviceKey] || [];
@@ -212,7 +200,7 @@ export function ServicesSection() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
           {services.map((service, index) => {
             const IconComponent = service.icon;
             const serviceTopics = getServiceTopics(service.titleKey);
@@ -223,39 +211,41 @@ export function ServicesSection() {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-bright-blue/10 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative bg-slate-800/80 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-bright-blue/50 transition-all duration-300">
-                  <div className="flex items-start space-x-6">
-                    <div className="relative flex-shrink-0">
-                      <div className={`absolute inset-0 ${service.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
-                      <div className={`relative ${service.color} text-4xl group-hover:scale-110 transition-transform duration-300`}>
-                        <IconComponent className="h-12 w-12" />
-                      </div>
-                    </div>
-                    
-                    <div className="flex-1">
-                      <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-bright-blue transition-colors duration-300">
-                        {t(service.titleKey)}
-                      </h3>
-                      <p className="text-gray-300 mb-4 text-sm">
-                        {t(service.descKey)}
-                      </p>
-                      
-                      {/* Service Topics */}
-                      <div className="space-y-2">
-                        <h4 className="text-bright-blue text-sm font-mono mb-3">CAPACIDADES TÉCNICAS:</h4>
-                        <div className="grid grid-cols-1 gap-2">
-                          {serviceTopics.map((topic, topicIndex) => (
-                            <div key={topicIndex} className="flex items-center text-xs text-gray-400">
-                              <div className="h-1 w-1 bg-bright-blue rounded-full mr-3 animate-pulse"></div>
-                              <span className="font-mono">{topic}</span>
-                            </div>
-                          ))}
+                <div className="relative bg-slate-800/80 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-bright-blue/50 transition-all duration-300 h-full">
+                  <div className="flex flex-col h-full">
+                    <div className="flex items-start space-x-4 mb-4">
+                      <div className="relative flex-shrink-0">
+                        <div className={`absolute inset-0 ${service.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
+                        <div className={`relative ${service.color} group-hover:scale-110 transition-transform duration-300`}>
+                          <IconComponent className="h-10 w-10" />
                         </div>
                       </div>
                       
-                      <div className="mt-6 text-sm">
-                        <div className="h-px bg-gradient-to-r from-bright-blue/50 to-transparent"></div>
+                      <div className="flex-1">
+                        <h3 className="text-lg font-semibold mb-2 text-white group-hover:text-bright-blue transition-colors duration-300">
+                          {t(service.titleKey)}
+                        </h3>
+                        <p className="text-gray-300 text-sm leading-relaxed">
+                          {t(service.descKey)}
+                        </p>
                       </div>
+                    </div>
+                    
+                    {/* Service Topics */}
+                    <div className="flex-1 space-y-3">
+                      <h4 className="text-bright-blue text-xs font-mono uppercase tracking-wider">Capacidades Técnicas:</h4>
+                      <div className="space-y-2">
+                        {serviceTopics.map((topic, topicIndex) => (
+                          <div key={topicIndex} className="flex items-start text-xs text-gray-400">
+                            <div className="h-1 w-1 bg-bright-blue rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                            <span className="leading-relaxed">{topic}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    
+                    <div className="mt-4 pt-4 border-t border-slate-700/50">
+                      <div className="h-px bg-gradient-to-r from-bright-blue/30 to-transparent"></div>
                     </div>
                   </div>
                 </div>
