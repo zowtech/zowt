@@ -114,7 +114,6 @@ export function AboutSection() {
                   <Users className="h-12 w-12 text-bright-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-1">Lucas Alberto</h3>
-                <p className="text-bright-blue font-mono text-xs mb-1">FOUNDER & CEO • ZOWT</p>
                 <p className="text-bright-blue font-mono text-sm">{t('about.title.expert')}</p>
                 <div className="mt-2 px-3 py-1 bg-green-500/20 text-green-400 text-xs font-mono rounded-full border border-green-400/30">
                   {t('about.experience')}

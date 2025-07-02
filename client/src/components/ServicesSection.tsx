@@ -28,11 +28,10 @@ export function ServicesSection() {
         'Investigação de perfis falsos'
       ],
       'services.reports.title': [
-        'Laudos periciais judiciais',
-        'Relatórios técnicos especializados',
-        'Documentação de evidências',
-        'Pareceres técnicos',
-        'Assistência técnica processual'
+        'Análise de vulnerabilidades e penetration testing',
+        'Implementação de políticas de segurança',
+        'Auditoria de infraestrutura e compliance',
+        'Treinamento em conscientização digital'
       ],
       'services.tampering.title': [
         'Detecção de deepfakes e manipulações',
@@ -50,7 +49,7 @@ export function ServicesSection() {
       ],
       'services.diligence.title': [
         'Análise patrimonial e background check executivo',
-        'Investigação de reputação digital e PEPs',
+        'Investigação de reputação e PEPs',
         'Auditoria de ativos offshore e estruturas complexas',
         'Verificação de litígios e histórico regulatório'
       ],
