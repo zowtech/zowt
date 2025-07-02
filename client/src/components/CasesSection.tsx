@@ -116,12 +116,12 @@ export function CasesSection() {
                       </div>
                     </div>
                     
-                    <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-bright-blue transition-colors duration-300 pr-8 leading-tight">
+                    <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-bright-blue transition-colors duration-300 pr-8 leading-tight min-h-[2.5rem] flex items-center">
                       {t(caseItem.titleKey)}
                     </h3>
                   </div>
                   
-                  <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed group-hover:text-gray-200 transition-colors duration-300 flex-1 min-h-[2.5rem] sm:min-h-[3rem]">
+                  <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed group-hover:text-gray-200 transition-colors duration-300 flex-1 min-h-[3rem] sm:min-h-[3.5rem] lg:min-h-[4rem]">
                     {t(caseItem.descKey)}
                   </p>
                   

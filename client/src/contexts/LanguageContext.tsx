@@ -110,8 +110,8 @@ const translations = {
     'cases.social.desc': 'Mapeamento de 200 perfis fake em ataques criminosos eleitorais',
     'cases.extortion.title': 'Doxing e Extorsão',
     'cases.extortion.desc': 'Investigação de vazamento de dados pessoais para chantagem',
-    'cases.insider.title': 'Fraude de Funcionário',
-    'cases.insider.desc': 'Perícia comprovou desvio de R$ 320k por insider trading',
+    'cases.insider.title': 'Insider Trading',
+    'cases.insider.desc': 'Perícia comprovou fraude de funcionário com desvio de R$ 320k',
     
     // Blog
     'blog.title': 'Artigos e Dicas',
@@ -261,8 +261,8 @@ const translations = {
     'cases.social.desc': 'Mapped 200 fake profiles in criminal electoral attacks',
     'cases.extortion.title': 'Doxing and Extortion',
     'cases.extortion.desc': 'Investigation of personal data leak for blackmail purposes',
-    'cases.insider.title': 'Employee Fraud',
-    'cases.insider.desc': 'Analysis proved $65k embezzlement via insider trading',
+    'cases.insider.title': 'Insider Trading',
+    'cases.insider.desc': 'Analysis proved employee fraud with $65k embezzlement',
     
     // Blog
     'blog.title': 'Blog & Insights',
