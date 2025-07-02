@@ -10,70 +10,70 @@ export function CasesSection() {
       titleKey: 'cases.financial.title',
       descKey: 'cases.financial.desc',
       color: 'text-amber-400',
-      status: 'CONDENAÇÃO'
+      status: 'RESOLVIDO'
     },
     {
       icon: Building,
       titleKey: 'cases.identity.title',
       descKey: 'cases.identity.desc',
       color: 'text-red-400',
-      status: 'INTERCEPTADO'
+      status: 'ANALISADO'
     },
     {
       icon: Bug,
       titleKey: 'cases.hacking.title',
       descKey: 'cases.hacking.desc',
       color: 'text-purple-400',
-      status: 'ATRIBUÍDO'
+      status: 'INVESTIGADO'
     },
     {
       icon: Video,
       titleKey: 'cases.deepfake.title',
       descKey: 'cases.deepfake.desc',
       color: 'text-pink-400',
-      status: 'COMPROVADO'
+      status: 'VERIFICADO'
     },
     {
       icon: CreditCard,
       titleKey: 'cases.crypto.title',
       descKey: 'cases.crypto.desc',
       color: 'text-blue-400',
-      status: 'RECUPERADO'
+      status: 'RASTREADO'
     },
     {
       icon: AlertTriangle,
       titleKey: 'cases.corruption.title',
       descKey: 'cases.corruption.desc',
       color: 'text-orange-400',
-      status: 'DOCUMENTADO'
+      status: 'CONCLUÍDO'
     },
     {
       icon: Database,
       titleKey: 'cases.data.title',
       descKey: 'cases.data.desc',
       color: 'text-cyan-400',
-      status: 'INVESTIGADO'
+      status: 'AUDITADO'
     },
     {
       icon: Users,
       titleKey: 'cases.social.title',
       descKey: 'cases.social.desc',
       color: 'text-green-400',
-      status: 'DESARTICULADO'
+      status: 'MAPEADO'
     },
     {
       icon: UserX,
       titleKey: 'cases.extortion.title',
       descKey: 'cases.extortion.desc',
       color: 'text-red-500',
-      status: 'PRESO'
+      status: 'IDENTIFICADO'
     },
     {
       icon: TrendingUp,
       titleKey: 'cases.insider.title',
       descKey: 'cases.insider.desc',
       color: 'text-violet-400',
-      status: 'PROCESSADO'
+      status: 'FINALIZADO'
     }
   ];
 
@@ -119,7 +119,7 @@ export function CasesSection() {
                     {t(caseItem.titleKey)}
                   </h3>
                   
-                  <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed group-hover:text-gray-200 transition-colors duration-300 flex-1">
+                  <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed group-hover:text-gray-200 transition-colors duration-300 flex-1 min-h-[2.5rem] sm:min-h-[3rem]">
                     {t(caseItem.descKey)}
                   </p>
                   
