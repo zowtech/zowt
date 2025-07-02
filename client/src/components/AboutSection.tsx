@@ -180,7 +180,7 @@ export function AboutSection() {
                   </div>
                   <div className="flex items-center text-xs text-gray-300">
                     <div className="h-1 w-1 bg-indigo-400 rounded-full mr-3"></div>
-                    <span>Due Diligence Digital</span>
+                    <span>Due Diligence</span>
                   </div>
                 </div>
               </div>
