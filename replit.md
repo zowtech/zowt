@@ -119,6 +119,7 @@ Changelog:
 - July 01, 2025: Corrected "OSINT, SOC & HUMINT" to "OSINT & SOCMINT" and reduced description lengths to fix card layout alignment issues
 - July 01, 2025: Removed "FOUNDER & CEO • ZOWT" title from about section, removed "digital" from Due Diligence, and changed "Perícias Judiciais" to "Consultoria em Cibersegurança"
 - July 02, 2025: Enhanced "Casos Atendidos" section with realistic high-profile cybercrime cases featuring specific technical details, monetary values, and professional investigation outcomes
+- July 02, 2025: Refined cases portfolio based on user feedback: focused on cryptocurrency fraud, phishing, credit card schemes via Telegram, anti-corruption with employee focus, political fake profiles, doxing/extortion, and employee fraud cases
 ```
 
 ## User Preferences
