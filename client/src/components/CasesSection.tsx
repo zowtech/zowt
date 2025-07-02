@@ -89,7 +89,7 @@ export function CasesSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-6">
           {cases.map((caseItem, index) => {
             const IconComponent = caseItem.icon;
             return (
@@ -99,32 +99,32 @@ export function CasesSection() {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-bright-blue/10 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative glass p-6 rounded-xl border border-slate-700/50 hover:border-bright-blue/50 transition-all duration-300">
+                <div className="relative glass p-4 sm:p-5 lg:p-6 rounded-xl border border-slate-700/50 hover:border-bright-blue/50 transition-all duration-300 h-full flex flex-col">
                   
                   {/* Status Badge */}
-                  <div className="absolute top-4 right-4">
-                    <div className="px-2 py-1 bg-slate-800/90 rounded text-xs font-mono text-bright-blue border border-bright-blue/30">
+                  <div className="absolute top-3 right-3">
+                    <div className="px-2 py-1 bg-slate-800/90 rounded text-xs font-mono text-bright-blue border border-bright-blue/30 whitespace-nowrap">
                       {caseItem.status}
                     </div>
                   </div>
                   
-                  <div className="relative mb-4">
+                  <div className="relative mb-4 flex-shrink-0">
                     <div className={`absolute inset-0 ${caseItem.color.replace('text-', 'bg-')}/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-150`}></div>
-                    <div className={`relative ${caseItem.color} text-3xl group-hover:scale-110 transition-transform duration-300 inline-block`}>
-                      <IconComponent className="h-8 w-8" />
+                    <div className={`relative ${caseItem.color} group-hover:scale-110 transition-transform duration-300 inline-block`}>
+                      <IconComponent className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8" />
                     </div>
                   </div>
                   
-                  <h3 className="text-lg font-semibold mb-3 text-white group-hover:text-bright-blue transition-colors duration-300">
+                  <h3 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3 text-white group-hover:text-bright-blue transition-colors duration-300 pr-12 flex-shrink-0">
                     {t(caseItem.titleKey)}
                   </h3>
                   
-                  <p className="text-gray-300 text-sm mb-4 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                  <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed group-hover:text-gray-200 transition-colors duration-300 flex-1">
                     {t(caseItem.descKey)}
                   </p>
                   
                   {/* Progress indicator */}
-                  <div className="flex items-center text-xs text-bright-blue/70">
+                  <div className="flex items-center text-xs text-bright-blue/70 flex-shrink-0">
                     <div className="h-1 w-1 bg-bright-blue rounded-full mr-2 animate-pulse"></div>
                     <span className="font-mono">CASO #{String(index + 1).padStart(3, '0')}</span>
                   </div>
@@ -135,27 +135,27 @@ export function CasesSection() {
         </div>
         
         {/* Statistics Summary */}
-        <div className="mt-16 glass p-8 rounded-xl border border-bright-blue/30">
-          <div className="flex items-center justify-center mb-6">
+        <div className="mt-12 sm:mt-16 glass p-4 sm:p-6 lg:p-8 rounded-xl border border-bright-blue/30">
+          <div className="flex items-center justify-center mb-4 sm:mb-6">
             <div className="h-2 w-2 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-            <h3 className="text-xl font-semibold text-bright-blue font-mono">RESUMO OPERACIONAL</h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-bright-blue font-mono text-center">RESUMO OPERACIONAL</h3>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold text-green-400 mb-2">80+</div>
-              <div className="text-gray-300 text-sm font-mono">CASOS RESOLVIDOS</div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 text-center">
+            <div className="p-3 sm:p-4 rounded-lg bg-slate-800/30 hover:bg-slate-700/30 transition-colors">
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-green-400 mb-1 sm:mb-2">80+</div>
+              <div className="text-gray-300 text-xs sm:text-sm font-mono leading-tight">CASOS RESOLVIDOS</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-blue-400 mb-2">R$ 20M+</div>
-              <div className="text-gray-300 text-sm font-mono">VALORES RASTREADOS</div>
+            <div className="p-3 sm:p-4 rounded-lg bg-slate-800/30 hover:bg-slate-700/30 transition-colors">
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-400 mb-1 sm:mb-2">R$ 20M+</div>
+              <div className="text-gray-300 text-xs sm:text-sm font-mono leading-tight">VALORES RASTREADOS</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-purple-400 mb-2">98%</div>
-              <div className="text-gray-300 text-sm font-mono">TAXA DE SUCESSO</div>
+            <div className="p-3 sm:p-4 rounded-lg bg-slate-800/30 hover:bg-slate-700/30 transition-colors">
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-purple-400 mb-1 sm:mb-2">98%</div>
+              <div className="text-gray-300 text-xs sm:text-sm font-mono leading-tight">TAXA DE SUCESSO</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-orange-400 mb-2">24/7</div>
-              <div className="text-gray-300 text-sm font-mono">SUPORTE TÉCNICO</div>
+            <div className="p-3 sm:p-4 rounded-lg bg-slate-800/30 hover:bg-slate-700/30 transition-colors">
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-orange-400 mb-1 sm:mb-2">24/7</div>
+              <div className="text-gray-300 text-xs sm:text-sm font-mono leading-tight">SUPORTE TÉCNICO</div>
             </div>
           </div>
         </div>
