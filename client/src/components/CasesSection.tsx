@@ -117,7 +117,7 @@ export function CasesSection() {
                     </div>
                     
                     <div className="flex-1 min-w-0">
-                      <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-bright-blue transition-colors duration-300 leading-tight">
+                      <h3 className="text-sm sm:text-base font-semibold text-white group-hover:text-bright-blue transition-colors duration-300 leading-tight hyphens-none">
                         {t(caseItem.titleKey)}
                       </h3>
                     </div>
