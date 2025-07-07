@@ -26,7 +26,7 @@ export function Navigation() {
             </div>
             <div className="hidden lg:flex items-center ml-4 glass px-3 py-1 rounded-full">
               <div className="h-2 w-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
-              <span className="text-xs text-gray-300 font-mono">SYSTEM ACTIVE</span>
+              <span className="text-xs text-gray-300 font-mono">{"SYSTEM ACTIVE"}</span>
             </div>
           </div>
           
