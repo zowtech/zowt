@@ -1,0 +1,21 @@
+# ZowT Digital Forensics - Hostgator Configuration
+# Redirect all requests to Node.js application
+
+RewriteEngine On
+
+# Security headers
+Header always set X-Frame-Options DENY
+Header always set X-Content-Type-Options nosniff
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+# Block sensitive files
+<FilesMatch "\.(env|log|sql|bak|config)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Redirect to Node.js app (adjust port if needed)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ http://localhost:5000/$1 [P,L]
