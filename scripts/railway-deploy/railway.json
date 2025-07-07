@@ -1,0 +1,12 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "npm install && npm run build"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "restartPolicyType": "ON_FAILURE",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 300
+  }
+}

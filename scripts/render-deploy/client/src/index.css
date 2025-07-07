@@ -1,0 +1,288 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(240, 10%, 3.9%);
+  --muted: hsl(240, 4.8%, 95.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(240, 10%, 3.9%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(240, 10%, 3.9%);
+  --border: hsl(240, 5.9%, 90%);
+  --input: hsl(240, 5.9%, 90%);
+  --primary: hsl(217, 91%, 60%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(240, 4.8%, 95.9%);
+  --secondary-foreground: hsl(240, 5.9%, 10%);
+  --accent: hsl(240, 4.8%, 95.9%);
+  --accent-foreground: hsl(240, 5.9%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(240, 5%, 64.9%);
+  --radius: 0.5rem;
+  
+  /* Custom theme colors */
+  --dark-slate: hsl(222, 84%, 4.9%);
+  --slate-800: hsl(215, 28%, 17%);
+  --slate-700: hsl(215, 20.2%, 25.1%);
+  --slate-600: hsl(215, 16.3%, 46.9%);
+  --bright-blue: hsl(217, 91%, 60%);
+  --blue-600: hsl(221, 83%, 53%);
+}
+
+.dark {
+  --background: hsl(222, 84%, 4.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(215, 28%, 17%);
+  --muted-foreground: hsl(215, 20.2%, 65.1%);
+  --popover: hsl(222, 84%, 4.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(222, 84%, 4.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(215, 28%, 17%);
+  --input: hsl(215, 28%, 17%);
+  --primary: hsl(217, 91%, 60%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(215, 28%, 17%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(215, 28%, 17%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(215, 20.2%, 65.1%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark-slate);
+    color: white;
+  }
+}
+
+/* Custom utility classes */
+.bg-dark-slate {
+  background-color: var(--dark-slate);
+}
+
+.bg-slate-800 {
+  background-color: var(--slate-800);
+}
+
+.bg-slate-700 {
+  background-color: var(--slate-700);
+}
+
+.text-bright-blue {
+  color: var(--bright-blue);
+}
+
+.border-slate-700 {
+  border-color: var(--slate-700);
+}
+
+.border-bright-blue {
+  border-color: var(--bright-blue);
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: var(--blue-600);
+}
+
+.hover\:border-bright-blue:hover {
+  border-color: var(--bright-blue);
+}
+
+.hover\:text-bright-blue:hover {
+  color: var(--bright-blue);
+}
+
+.bg-bright-blue {
+  background-color: var(--bright-blue);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom gradients */
+.gradient-hero {
+  background: linear-gradient(135deg, var(--dark-slate) 0%, hsl(217, 91%, 20%) 30%, hsl(217, 91%, 40%) 70%, var(--slate-700) 100%);
+  position: relative;
+}
+
+.gradient-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+  pointer-events: none;
+}
+
+.gradient-section {
+  background: linear-gradient(45deg, var(--slate-800) 0%, var(--dark-slate) 50%, var(--slate-800) 100%);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fadeInScale {
+  animation: fadeInScale 0.6s ease-out forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Enhanced hover effects */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Improved text shadows */
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Forensic scanner effects */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes dataStream {
+  0% { transform: translateX(-100%); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes forensicBlink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.3; }
+}
+
+.scanner-line {
+  animation: scanline 3s linear infinite;
+}
+
+.data-stream {
+  animation: dataStream 2s ease-in-out infinite;
+}
+
+.forensic-blink {
+  animation: forensicBlink 2s ease-in-out infinite;
+}
+
+/* Matrix-like background effect */
+.matrix-bg {
+  background-image: 
+    linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Terminal cursor blink */
+@keyframes terminalCursor {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.terminal-cursor::after {
+  content: '_';
+  animation: terminalCursor 1s infinite;
+  color: #3b82f6;
+}
+
+/* Text truncation utilities */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
