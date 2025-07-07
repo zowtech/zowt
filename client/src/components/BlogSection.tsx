@@ -5,30 +5,36 @@ import { ArrowRight, Clock, FileText, ChevronRight } from 'lucide-react';
 export function BlogSection() {
   const { t } = useLanguage();
 
-  const featuredArticle = {
-    titleKey: 'blog.article1.title',
-    excerptKey: 'blog.article1.excerpt',
-    date: '2025-01-01',
-    readTime: '5 min',
-    category: 'Análise Forense',
-    tags: ['Email Spoofing', 'Headers', 'Perícia'],
-    image: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=600&h=400&fit=crop&crop=center'
-  };
-
-  const recentArticles = [
+  const articles = [
+    {
+      titleKey: 'blog.article1.title',
+      excerptKey: 'blog.article1.excerpt',
+      date: '2025-01-01',
+      readTime: '5 min',
+      category: 'Email Forensics',
+      tags: ['SMTP Analysis', 'Headers', 'SPF/DKIM'],
+      featured: true,
+      image: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=500&h=300&fit=crop&crop=center'
+    },
     {
       titleKey: 'blog.article2.title',
+      excerptKey: 'blog.article2.excerpt',
       date: '2024-12-15',
       readTime: '7 min',
-      category: 'Cibersegurança',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=250&fit=crop&crop=center'
+      category: 'Fraud Prevention',
+      tags: ['Deepfakes', 'BEC', 'Crypto'],
+      featured: false,
+      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=300&fit=crop&crop=center'
     },
     {
       titleKey: 'blog.article3.title',
+      excerptKey: 'blog.article3.excerpt',
       date: '2024-11-20',
       readTime: '6 min',
-      category: 'Investigação',
-      image: 'https://images.unsplash.com/photo-1551808525-51a94da548ce?w=400&h=250&fit=crop&crop=center'
+      category: 'Legal Reports',
+      tags: ['ISO 27037', 'Chain of Custody', 'Expert Reports'],
+      featured: false,
+      image: 'https://images.unsplash.com/photo-1551808525-51a94da548ce?w=500&h=300&fit=crop&crop=center'
     }
   ];
 
@@ -58,24 +64,28 @@ export function BlogSection() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          
-          {/* Featured Article */}
-          <div className="md:col-span-2 lg:col-span-1">
-            <Link href="/artigos" className="block group">
-              <div className="relative glass rounded-2xl border border-bright-blue/20 hover:border-bright-blue/40 transition-all duration-300 overflow-hidden h-full">
+          {articles.map((article, index) => (
+            <Link
+              key={index}
+              href="/artigos"
+              className="block group"
+            >
+              <div className="glass rounded-2xl border border-slate-700/50 hover:border-bright-blue/30 transition-all duration-300 overflow-hidden h-full">
                 
                 {/* Featured Badge */}
-                <div className="absolute top-4 left-4 z-10">
-                  <div className="px-2 py-1 bg-bright-blue/20 text-bright-blue text-xs font-mono rounded border border-bright-blue/30">
-                    DESTAQUE
+                {article.featured && (
+                  <div className="absolute top-4 left-4 z-10">
+                    <div className="px-2 py-1 bg-bright-blue/20 text-bright-blue text-xs font-mono rounded border border-bright-blue/30">
+                      DESTAQUE
+                    </div>
                   </div>
-                </div>
+                )}
 
                 {/* Image */}
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src={featuredArticle.image} 
-                    alt={t(featuredArticle.titleKey)}
+                    src={article.image} 
+                    alt={t(article.titleKey)}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
@@ -85,85 +95,42 @@ export function BlogSection() {
                   {/* Meta Info */}
                   <div className="flex items-center gap-3 mb-3">
                     <span className="px-2 py-1 bg-slate-800 text-gray-300 text-xs rounded border border-slate-600">
-                      {featuredArticle.category}
+                      {article.category}
                     </span>
                     <div className="flex items-center text-gray-400 text-xs">
                       <Clock className="h-3 w-3 mr-1" />
-                      {featuredArticle.readTime}
+                      {article.readTime}
                     </div>
                   </div>
 
                   {/* Title */}
                   <h3 className="text-lg font-bold text-white mb-3 group-hover:text-bright-blue transition-colors duration-300 line-clamp-2">
-                    {t(featuredArticle.titleKey)}
+                    {t(article.titleKey)}
                   </h3>
 
                   {/* Excerpt */}
                   <p className="text-gray-300 text-sm leading-relaxed mb-4 line-clamp-3">
-                    {t(featuredArticle.excerptKey)}
+                    {t(article.excerptKey)}
                   </p>
 
                   {/* Tags */}
                   <div className="flex flex-wrap gap-1 mb-4">
-                    {featuredArticle.tags.slice(0, 3).map((tag, index) => (
-                      <span key={index} className="px-2 py-1 bg-slate-800/50 text-gray-400 text-xs rounded border border-slate-700">
+                    {article.tags.slice(0, 3).map((tag, tagIndex) => (
+                      <span key={tagIndex} className="px-2 py-1 bg-slate-800/50 text-gray-400 text-xs rounded border border-slate-700">
                         #{tag}
                       </span>
                     ))}
                   </div>
 
-                  {/* Read Button */}
-                  <div className="flex items-center text-bright-blue text-sm group-hover:text-blue-300 transition-colors">
-                    <span className="font-medium">Ler mais</span>
-                    <ChevronRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          {/* Recent Articles */}
-          {recentArticles.map((article, index) => (
-            <Link
-              key={index}
-              href="/artigos"
-              className="block group"
-            >
-              <div className="glass rounded-2xl border border-slate-700/50 hover:border-bright-blue/30 transition-all duration-300 overflow-hidden h-full">
-                
-                {/* Image */}
-                <div className="relative h-40 overflow-hidden">
-                  <img 
-                    src={article.image} 
-                    alt={t(article.titleKey)}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
-                </div>
-
-                <div className="p-5">
-                  {/* Meta Info */}
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="px-2 py-1 bg-slate-800 text-gray-300 text-xs rounded border border-slate-600">
-                      {article.category}
-                    </span>
-                    <div className="flex items-center text-gray-500 text-xs">
-                      <Clock className="h-3 w-3 mr-1" />
-                      {article.readTime}
-                    </div>
-                  </div>
-                  
-                  {/* Title */}
-                  <h4 className="text-base font-semibold text-white mb-3 group-hover:text-bright-blue transition-colors duration-300 line-clamp-2">
-                    {t(article.titleKey)}
-                  </h4>
-                  
-                  {/* Date and Action */}
-                  <div className="flex items-center justify-between">
+                  {/* Footer */}
+                  <div className="flex items-center justify-between pt-2 border-t border-slate-700/50">
                     <span className="text-gray-400 text-xs">
                       {new Date(article.date).toLocaleDateString('pt-BR')}
                     </span>
-                    <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-bright-blue group-hover:translate-x-1 transition-all duration-300" />
+                    <div className="flex items-center text-bright-blue text-sm group-hover:text-blue-300 transition-colors">
+                      <span className="font-medium">Ler mais</span>
+                      <ChevronRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                    </div>
                   </div>
                 </div>
               </div>

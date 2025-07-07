@@ -122,6 +122,9 @@ Changelog:
 - July 02, 2025: Refined cases portfolio based on user feedback: focused on cryptocurrency fraud, phishing, credit card schemes via Telegram, anti-corruption with employee focus, political fake profiles, doxing/extortion, and employee fraud cases
 - July 02, 2025: Completely redesigned cases portfolio with more diverse and technical content: banking ransomware, financial deepfakes, corporate APT tracking, NFT money laundering, virtual kidnapping, insider trading, industrial espionage, electoral manipulation, international sextortion, and judicial fraud
 - July 02, 2025: Improved cases section layout responsiveness by simplifying card structure and removing fixed heights
+- July 07, 2025: Completed all article content with professional technical descriptions and expanded from 6 to 9 specialized articles
+- July 07, 2025: Fixed routing issues by adding bilingual routes (/articles and /artigos) for better user experience
+- July 07, 2025: Redesigned blog section layout on homepage with uniform card sizes and professional presentation
 ```
 
 ## User Preferences
