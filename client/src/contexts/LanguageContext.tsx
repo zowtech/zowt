@@ -19,7 +19,7 @@ const translations = {
     'nav.contact': 'Contato',
     
     // Hero Section
-    'hero.headline': 'ZowT 01011010',
+    'hero.headline': '01011010',
     'hero.subheadline': 'Especialista em crimes cibernéticos, fraudes e perícia digital.',
     'hero.cta': 'Solicitar Análise',
     'hero.secondary': 'Conhecer Serviços',
@@ -218,7 +218,7 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero Section
-    'hero.headline': 'ZowT 01011010',
+    'hero.headline': '01011010',
     'hero.subheadline': 'Expert in cybercrime, fraud investigation, and digital forensics.',
     'hero.cta': 'Request Investigation',
     'hero.secondary': 'Learn More',
