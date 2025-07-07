@@ -128,7 +128,7 @@ export function BlogSection() {
                       {new Date(article.date).toLocaleDateString('pt-BR')}
                     </span>
                     <div className="flex items-center text-bright-blue text-sm group-hover:text-blue-300 transition-colors">
-                      <span className="font-medium">Ler mais</span>
+                      <span className="font-medium">{t('blog.button.readmore')}</span>
                       <ChevronRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>
@@ -144,7 +144,7 @@ export function BlogSection() {
             href="/artigos"
             className="inline-flex items-center px-8 py-4 bg-bright-blue/10 hover:bg-bright-blue/20 text-bright-blue border border-bright-blue/30 rounded-xl transition-all duration-300 group"
           >
-            <span className="font-semibold">Ver Todos os Artigos</span>
+            <span className="font-semibold">{t('blog.button.viewall')}</span>
             <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
           </Link>
         </div>

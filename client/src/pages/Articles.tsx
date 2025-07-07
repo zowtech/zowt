@@ -152,11 +152,11 @@ export default function Articles() {
             <div className="hidden md:flex items-center gap-6 text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <FileText className="h-4 w-4" />
-                <span>{articles.length} artigos</span>
+                <span>{articles.length} {t('articles.stats.articles')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Eye className="h-4 w-4" />
-                <span>{articles.reduce((acc, article) => acc + article.views, 0).toLocaleString()} visualizações</span>
+                <span>{articles.reduce((acc, article) => acc + article.views, 0).toLocaleString()} {t('articles.stats.views')}</span>
               </div>
             </div>
           </div>
@@ -181,19 +181,19 @@ export default function Articles() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="text-center glass p-4 rounded-xl border border-slate-700/50">
               <div className="text-2xl font-bold text-bright-blue mb-1">{articles.length}</div>
-              <div className="text-sm text-gray-400">Artigos</div>
+              <div className="text-sm text-gray-400">{t('articles.stats.articles')}</div>
             </div>
             <div className="text-center glass p-4 rounded-xl border border-slate-700/50">
               <div className="text-2xl font-bold text-bright-blue mb-1">15K+</div>
-              <div className="text-sm text-gray-400">Leitores</div>
+              <div className="text-sm text-gray-400">{t('articles.stats.readers')}</div>
             </div>
             <div className="text-center glass p-4 rounded-xl border border-slate-700/50">
               <div className="text-2xl font-bold text-bright-blue mb-1">98%</div>
-              <div className="text-sm text-gray-400">Precisão</div>
+              <div className="text-sm text-gray-400">{t('articles.stats.accuracy')}</div>
             </div>
             <div className="text-center glass p-4 rounded-xl border border-slate-700/50">
               <div className="text-2xl font-bold text-bright-blue mb-1">5+</div>
-              <div className="text-sm text-gray-400">Categorias</div>
+              <div className="text-sm text-gray-400">{t('articles.stats.categories')}</div>
             </div>
           </div>
         </div>
@@ -279,7 +279,7 @@ export default function Articles() {
                       </div>
                       
                       <button className="text-bright-blue hover:text-blue-300 transition-colors text-sm font-medium opacity-0 group-hover:opacity-100">
-                        Ler →
+                        {t('articles.button.read')}
                       </button>
                     </div>
                   </div>
@@ -317,7 +317,7 @@ export default function Articles() {
                     </Link>
                     
                     <button className="inline-flex items-center justify-center px-6 py-3 border border-bright-blue/30 text-bright-blue hover:bg-bright-blue/10 rounded-xl transition-all duration-300 font-medium">
-                      <span>Receber Atualizações</span>
+                      <span>{t('articles.button.updates')}</span>
                       <Tag className="h-4 w-4 ml-2" />
                     </button>
                   </div>

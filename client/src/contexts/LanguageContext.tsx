@@ -125,6 +125,15 @@ const translations = {
     'articles.consultation.title': 'Precisa de Consultoria Especializada?',
     'articles.consultation.desc': 'Oferecemos análise pericial personalizada e consultoria técnica para casos complexos de investigação digital',
     'articles.consultation.cta': 'Solicitar Consultoria',
+    'articles.stats.articles': 'artigos',
+    'articles.stats.views': 'visualizações',
+    'articles.stats.readers': 'Leitores',
+    'articles.stats.accuracy': 'Precisão',
+    'articles.stats.categories': 'Categorias',
+    'articles.button.read': 'Ler →',
+    'articles.button.updates': 'Receber Atualizações',
+    'blog.button.readmore': 'Ler mais',
+    'blog.button.viewall': 'Ver Todos os Artigos',
     
     // Contact
     'contact.title': 'Entre em Contato',
@@ -326,6 +335,15 @@ const translations = {
     'articles.consultation.title': 'Need Specialized Consulting?',
     'articles.consultation.desc': 'We offer personalized forensic analysis and technical consulting for complex digital investigation cases',
     'articles.consultation.cta': 'Request Consultation',
+    'articles.stats.articles': 'articles',
+    'articles.stats.views': 'views',
+    'articles.stats.readers': 'Readers',
+    'articles.stats.accuracy': 'Accuracy',
+    'articles.stats.categories': 'Categories',
+    'articles.button.read': 'Read →',
+    'articles.button.updates': 'Receive Updates',
+    'blog.button.readmore': 'Read more',
+    'blog.button.viewall': 'View All Articles',
     
     // Contact
     'contact.title': 'Get in Touch',
