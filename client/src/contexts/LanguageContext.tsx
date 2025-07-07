@@ -81,13 +81,7 @@ const translations = {
     'blog.newsletter.desc': 'Receba insights exclusivos sobre análise forense e investigação digital.',
     'blog.newsletter.learn': 'Saber mais',
     
-    // Articles page
-    'articles.title': 'Artigos Técnicos',
-    'articles.subtitle': 'Insights especializados sobre investigação digital, análise forense e cybersecurity.',
-    'articles.back': 'Voltar',
-    'articles.consultation.title': 'Precisa de Consultoria Especializada?',
-    'articles.consultation.desc': 'Entre em contato para discutir seu caso específico e obter análise técnica personalizada.',
-    'articles.consultation.cta': 'Solicitar Consultoria',
+
     
     // Cases
     'cases.title': 'Casos Atendidos',
@@ -116,13 +110,21 @@ const translations = {
     // Blog
     'blog.title': 'Artigos e Dicas',
     'blog.subtitle': 'Conhecimento especializado em segurança digital e perícia forense',
-    'blog.article1.title': 'Como identificar spoofing de e-mail',
-    'blog.article1.excerpt': 'Aprenda técnicas para detectar e-mails falsificados e proteger sua organização',
-    'blog.article2.title': 'Os golpes online mais comuns em 2025',
-    'blog.article2.excerpt': 'Conheça as principais fraudes digitais e como se proteger',
-    'blog.article3.title': 'O que é um laudo pericial digital?',
-    'blog.article3.excerpt': 'Entenda a importância dos laudos técnicos em processos judiciais',
+    'blog.article1.title': 'Análise Forense de Headers de E-mail: Detectando Spoofing',
+    'blog.article1.excerpt': 'Guia técnico completo para identificar e-mails falsificados através de análise de cabeçalhos SMTP, verificação SPF/DKIM/DMARC e técnicas avançadas de autenticação',
+    'blog.article2.title': 'Fraudes Financeiras Digitais: Vetores de Ataque 2025',
+    'blog.article2.excerpt': 'Análise especializada das principais técnicas de fraude em criptomoedas, deepfakes corporativos, ataques BEC e golpes via PIX com metodologias de prevenção',
+    'blog.article3.title': 'Elaboração de Laudos Periciais Digitais: Padrões Técnicos',
+    'blog.article3.excerpt': 'Metodologia profissional para produção de laudos técnicos aceitos judicialmente, incluindo cadeia de custódia, normas ISO 27037 e documentação forense',
     'blog.readMore': 'Ler mais →',
+    
+    // Articles Page
+    'articles.title': 'Artigos Técnicos',
+    'articles.subtitle': 'Análises especializadas em investigação digital e cibersegurança forense',
+    'articles.back': 'Voltar ao início',
+    'articles.consultation.title': 'Precisa de Consultoria Especializada?',
+    'articles.consultation.desc': 'Oferecemos análise pericial personalizada e consultoria técnica para casos complexos de investigação digital',
+    'articles.consultation.cta': 'Solicitar Consultoria',
     
     // Contact
     'contact.title': 'Entre em Contato',
@@ -280,13 +282,7 @@ const translations = {
     'blog.newsletter.desc': 'Receive exclusive insights on forensic analysis and digital investigation.',
     'blog.newsletter.learn': 'Learn more',
     
-    // Articles page
-    'articles.title': 'Technical Articles',
-    'articles.subtitle': 'Specialized insights on digital investigation, forensic analysis and cybersecurity.',
-    'articles.back': 'Back',
-    'articles.consultation.title': 'Need Specialized Consultation?',
-    'articles.consultation.desc': 'Contact us to discuss your specific case and get personalized technical analysis.',
-    'articles.consultation.cta': 'Request Consultation',
+
     
     // Cases
     'cases.title': 'Case Portfolio',
@@ -315,13 +311,21 @@ const translations = {
     // Blog
     'blog.title': 'Blog & Insights',
     'blog.subtitle': 'Specialized knowledge in digital security and forensic analysis',
-    'blog.article1.title': 'How to identify email spoofing',
-    'blog.article1.excerpt': 'Learn techniques to detect forged emails and protect your organization',
-    'blog.article2.title': 'Most common online scams in 2025',
-    'blog.article2.excerpt': 'Know the main digital frauds and how to protect yourself',
-    'blog.article3.title': 'What is a digital forensic report?',
-    'blog.article3.excerpt': 'Understand the importance of technical reports in legal proceedings',
+    'blog.article1.title': 'Email Header Forensic Analysis: Detecting Spoofing',
+    'blog.article1.excerpt': 'Complete technical guide to identify forged emails through SMTP header analysis, SPF/DKIM/DMARC verification and advanced authentication techniques',
+    'blog.article2.title': 'Digital Financial Fraud: Attack Vectors 2025',
+    'blog.article2.excerpt': 'Specialized analysis of main fraud techniques in cryptocurrencies, corporate deepfakes, BEC attacks and PIX scams with prevention methodologies',
+    'blog.article3.title': 'Digital Forensic Report Preparation: Technical Standards',
+    'blog.article3.excerpt': 'Professional methodology for producing technical reports accepted in court, including chain of custody, ISO 27037 standards and forensic documentation',
     'blog.readMore': 'Read more →',
+    
+    // Articles Page
+    'articles.title': 'Technical Articles',
+    'articles.subtitle': 'Specialized analysis in digital investigation and forensic cybersecurity',
+    'articles.back': 'Back to home',
+    'articles.consultation.title': 'Need Specialized Consulting?',
+    'articles.consultation.desc': 'We offer personalized forensic analysis and technical consulting for complex digital investigation cases',
+    'articles.consultation.cta': 'Request Consultation',
     
     // Contact
     'contact.title': 'Get in Touch',
