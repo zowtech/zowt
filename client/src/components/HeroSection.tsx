@@ -37,7 +37,7 @@ export function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white text-shadow-lg animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
+        <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white text-shadow-lg animate-fadeInUp font-mono" style={{ animationDelay: '0.2s' }}>
           {t('hero.headline')}
         </h1>
         
