@@ -4,7 +4,7 @@
   "description": "ZowT Digital Forensics - Professional Cybersecurity Website",
   "main": "dist/index.js",
   "type": "module",
-  "homepage": "https://SEU-USUARIO.github.io/zowt-website",
+  "homepage": "https://zowtech.github.io/zowt/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

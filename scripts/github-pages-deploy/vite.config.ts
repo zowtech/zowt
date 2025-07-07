@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/", // Para GitHub Pages
+  base: "/zowt/", // Para GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {
