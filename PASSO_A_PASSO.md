@@ -2,11 +2,15 @@
 
 ## 📥 PASSO 1: BAIXAR DO REPLIT
 
-### No Replit
-1. **Clique em "Tools"** (no menu superior)
-2. **Clique em "Download as ZIP"**
-3. **Salve** o arquivo no seu computador
-4. **Extraia** o arquivo ZIP
+### No Replit (Versão Atualizada)
+1. **Procure o ícone de 3 pontos** (...) no canto superior direito
+2. **Clique** nos 3 pontos
+3. **Clique em "Download as ZIP"** ou "Export as ZIP"
+4. **Salve** o arquivo no seu computador
+5. **Extraia** o arquivo ZIP
+
+### Alternativa:
+- Também pode estar em **"File"** → **"Export"** → **"Download ZIP"**
 
 ### Resultado
 Você terá uma pasta com todo o projeto ZowT.
