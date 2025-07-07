@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Shield, Search, Lock, Eye, Fingerprint, Database, Wifi, Activity } from 'lucide-react';
+import { Shield, Search, Lock, Eye, Fingerprint, Database, Wifi, Activity, DollarSign, Cpu, Zap } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export function HeroSection() {
@@ -21,16 +21,25 @@ export function HeroSection() {
         }}></div>
       </div>
 
-      {/* Floating Forensic Elements - Simplified */}
+      {/* Floating Forensic Elements - Colorful */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-32 left-16 text-bright-blue/10 animate-pulse-slow">
+        <div className="absolute top-32 left-16 text-green-400/20 animate-pulse-slow">
           <Shield className="h-12 w-12" />
         </div>
-        <div className="absolute top-40 right-20 text-bright-blue/10 animate-pulse-slow" style={{ animationDelay: '2s' }}>
+        <div className="absolute top-40 right-20 text-blue-400/20 animate-pulse-slow" style={{ animationDelay: '2s' }}>
           <Database className="h-10 w-10" />
         </div>
-        <div className="absolute bottom-40 left-32 text-bright-blue/10 animate-pulse-slow" style={{ animationDelay: '4s' }}>
+        <div className="absolute bottom-40 left-32 text-purple-400/20 animate-pulse-slow" style={{ animationDelay: '4s' }}>
           <Fingerprint className="h-10 w-10" />
+        </div>
+        <div className="absolute top-64 right-32 text-yellow-400/20 animate-pulse-slow" style={{ animationDelay: '1s' }}>
+          <DollarSign className="h-11 w-11" />
+        </div>
+        <div className="absolute bottom-32 right-16 text-orange-400/20 animate-pulse-slow" style={{ animationDelay: '3s' }}>
+          <Cpu className="h-10 w-10" />
+        </div>
+        <div className="absolute top-48 left-40 text-red-400/20 animate-pulse-slow" style={{ animationDelay: '5s' }}>
+          <Zap className="h-9 w-9" />
         </div>
       </div>
       
