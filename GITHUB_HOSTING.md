@@ -2,23 +2,25 @@
 
 ## 🎯 OPÇÕES GRATUITAS COM GITHUB
 
-### 🥇 **Railway.app (Recomendado)**
+### 🥇 **GitHub Pages + Vercel (100% Gratuito)**
+- ✅ **GitHub Pages:** Frontend estático
+- ✅ **Vercel:** API functions gratuitas
+- ✅ **PlanetScale:** MySQL 5GB gratuito
+- ✅ **Deploy automático**
+- ✅ **SSL automático**
+
+### 🥈 **Railway.app (Recomendado)**
 - ✅ **Gratuito:** $5 crédito mensal
 - ✅ **Node.js nativo**
 - ✅ **PostgreSQL incluído**
 - ✅ **Deploy automático**
 - ✅ **SSL automático**
 
-### 🥈 **Render.com**
+### 🥉 **Render.com**
 - ✅ **Gratuito:** 750h/mês
 - ✅ **PostgreSQL gratuito**
 - ✅ **Deploy automático**
 - ✅ **SSL incluído**
-
-### 🥉 **Vercel + PlanetScale**
-- ✅ **Frontend gratuito**
-- ✅ **Banco MySQL gratuito**
-- ✅ **Performance excelente**
 
 ### 🎪 **Netlify + Railway**
 - ✅ **Frontend gratuito**
