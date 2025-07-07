@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Shield, Search, Lock, Eye, Fingerprint, Database, Wifi, Activity, DollarSign, Cpu, Zap, Bitcoin } from 'lucide-react';
+import { Shield, Search, Lock, Eye, Fingerprint, Database, Wifi, Activity, Cpu, Zap, Bitcoin } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export function HeroSection() {
@@ -32,9 +32,7 @@ export function HeroSection() {
         <div className="absolute bottom-40 left-32 text-purple-400/20 animate-pulse-slow" style={{ animationDelay: '4s' }}>
           <Fingerprint className="h-10 w-10" />
         </div>
-        <div className="absolute top-64 right-32 text-yellow-400/20 animate-pulse-slow" style={{ animationDelay: '1s' }}>
-          <DollarSign className="h-11 w-11" />
-        </div>
+
         <div className="absolute bottom-32 right-16 text-orange-400/20 animate-pulse-slow" style={{ animationDelay: '3s' }}>
           <Cpu className="h-10 w-10" />
         </div>
