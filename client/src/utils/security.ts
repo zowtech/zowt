@@ -225,12 +225,12 @@ export const security = SecurityMonitor.getInstance();
   }
 };
 
-// Konami Code implementation
-let konamiSequence = [];
-const konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]; // ↑↑↓↓←→←→BA
+// Konami Code implementation (modern approach)
+let konamiSequence: string[] = [];
+const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
 
 document.addEventListener('keydown', (e) => {
-  konamiSequence.push(e.keyCode);
+  konamiSequence.push(e.code);
   
   if (konamiSequence.length > konamiCode.length) {
     konamiSequence = konamiSequence.slice(-konamiCode.length);
@@ -240,6 +240,24 @@ document.addEventListener('keydown', (e) => {
     if (konamiSequence.every((code, index) => code === konamiCode[index])) {
       (window as any).zowt.konami();
       konamiSequence = [];
+    }
+  }
+});
+
+// Alternative simple easter egg with typed sequence
+let typedSequence = '';
+document.addEventListener('keydown', (e) => {
+  if (e.key.length === 1) {
+    typedSequence += e.key.toLowerCase();
+    if (typedSequence.length > 10) {
+      typedSequence = typedSequence.slice(-10);
+    }
+    
+    // Simple easter egg: typing "zowt" + Enter
+    if (typedSequence.includes('zowt') && e.key === 'Enter') {
+      console.log('%c🎯 ZOWT EASTER EGG ATIVADO!', 'color: #00bcd4; font-size: 18px; font-weight: bold;');
+      (window as any).zowt.showEasterEgg();
+      typedSequence = '';
     }
   }
 });
