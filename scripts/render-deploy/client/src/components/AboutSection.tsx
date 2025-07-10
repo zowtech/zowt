@@ -112,7 +112,7 @@ export function AboutSection() {
               <div className="text-center mb-6">
                 <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-2 border-bright-blue/30 bg-gradient-to-br from-bright-blue/20 to-purple-500/20">
                   <img 
-                    src="/attached_assets/IMG_5347_1752171399659.PNG" 
+                    src="/assets/lucas-alberto.png" 
                     alt="Lucas Alberto - Cyber Forensics Expert" 
                     className="w-full h-full object-cover"
                   />
