@@ -110,8 +110,12 @@ export function AboutSection() {
               
               {/* Header do Perfil */}
               <div className="text-center mb-6">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-bright-blue/20 to-purple-500/20 flex items-center justify-center border-2 border-bright-blue/30">
-                  <Users className="h-12 w-12 text-bright-blue" />
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-2 border-bright-blue/30 bg-gradient-to-br from-bright-blue/20 to-purple-500/20">
+                  <img 
+                    src="/attached_assets/IMG_5347_1752163612269.PNG" 
+                    alt="Lucas Alberto - Cyber Forensics Expert" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-1">Lucas Alberto</h3>
                 <p className="text-bright-blue font-mono text-sm">{t('about.title.expert')}</p>

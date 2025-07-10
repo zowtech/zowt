@@ -153,7 +153,7 @@ export function ContactSection() {
                 {t('contact.whatsapp.desc')}
               </p>
               <a 
-                href="https://wa.me/5511999999999" 
+                href="https://wa.me/5511989165012" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300"
