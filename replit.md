@@ -130,7 +130,7 @@ Changelog:
 - July 07, 2025: Created complete production deployment guide with Docker support, security headers, and incident response procedures
 - July 10, 2025: Updated contact information with new phone number (+55 (11) 98916-5012) and added Lucas Alberto's professional photo to About section across all deployment versions
 - July 10, 2025: Changed email from contato@lucasalberto.com to zowtech@email.com across all contact sections and security easter eggs
-- July 10, 2025: Updated site preview image for social media sharing with new professional workspace image (image_1752174211457.png) across all deployment versions and HTML files
+- July 10, 2025: Created custom SVG preview image for social media sharing with ZowT branding, professional stats, and contact information - applied across all deployment versions
 ```
 
 ## User Preferences
