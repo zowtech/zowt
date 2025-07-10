@@ -136,7 +136,7 @@ export function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Mail className="text-bright-blue h-6 w-6 mr-4" />
-                  <span className="text-gray-300">contato@lucasalberto.com</span>
+                  <span className="text-gray-300">zowtech@email.com</span>
                 </div>
                 <div className="flex items-center">
                   <MessageCircle className="text-bright-blue h-6 w-6 mr-4" />

@@ -129,6 +129,7 @@ Changelog:
 - July 07, 2025: Added frontend security monitoring with DevTools detection, anti-automation measures, and Konami Code Easter egg
 - July 07, 2025: Created complete production deployment guide with Docker support, security headers, and incident response procedures
 - July 10, 2025: Updated contact information with new phone number (+55 (11) 98916-5012) and added Lucas Alberto's professional photo to About section across all deployment versions
+- July 10, 2025: Changed email from contato@lucasalberto.com to zowtech@email.com across all contact sections and security easter eggs
 ```
 
 ## User Preferences

@@ -90,7 +90,7 @@ export class SecurityMonitor {
             '%c🎉 Olá, desenvolvedor curioso! 🎉\n' +
             '🔍 Você encontrou nosso sistema de monitoramento.\n' +
             '💼 Se você tem interesse em cibersegurança e forense digital,\n' +
-            '📧 entre em contato conosco: contato@zowt.com.br\n' +
+            '📧 entre em contato conosco: zowtech@email.com\n' +
             '🚀 Estamos sempre procurando talentos!',
             'color: #e91e63; font-size: 14px; font-weight: bold; background: #f8f9fa; padding: 10px; border: 2px solid #e91e63; border-radius: 8px;'
           );
@@ -187,7 +187,7 @@ export class SecurityMonitor {
       '    ║     • Due Diligence Corporativa                              ║\n' +
       '    ║                                                              ║\n' +
       '    ║  💼 Interessado em cibersegurança?                           ║\n' +
-      '    ║     📧 contato@zowt.com.br                                   ║\n' +
+      '    ║     📧 zowtech@email.com                                     ║\n' +
       '    ║     🌐 https://zowt.com.br                                   ║\n' +
       '    ║                                                              ║\n' +
       '    ║  🚀 "Code is poetry written in logic" - ZowT Team            ║\n' +
