@@ -14,7 +14,7 @@ export function BlogSection() {
       category: 'Email Forensics',
       tags: ['SMTP Analysis', 'Headers', 'SPF/DKIM'],
       featured: true,
-      image: '/assets/professional-team.jpg'
+      image: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=500&h=300&fit=crop&crop=center'
     },
     {
       titleKey: 'blog.article2.title',
@@ -24,7 +24,7 @@ export function BlogSection() {
       category: 'Fraud Prevention',
       tags: ['Deepfakes', 'BEC', 'Crypto'],
       featured: false,
-      image: '/assets/professional-team.jpg'
+      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=300&fit=crop&crop=center'
     },
     {
       titleKey: 'blog.article3.title',
@@ -34,7 +34,7 @@ export function BlogSection() {
       category: 'Legal Reports',
       tags: ['ISO 27037', 'Chain of Custody', 'Expert Reports'],
       featured: false,
-      image: '/assets/professional-team.jpg'
+      image: 'https://images.unsplash.com/photo-1551808525-51a94da548ce?w=500&h=300&fit=crop&crop=center'
     }
   ];
 
