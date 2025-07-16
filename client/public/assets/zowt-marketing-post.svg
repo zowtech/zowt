@@ -1,0 +1,176 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Circuit Pattern -->
+    <pattern id="circuitPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h40M20 0v40M10 10h20v20H10z" stroke="rgba(96,165,250,0.1)" stroke-width="0.5" fill="none"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Circuit Pattern Overlay -->
+  <rect width="1080" height="1080" fill="url(#circuitPattern)" opacity="0.3"/>
+  
+  <!-- Top Header -->
+  <g transform="translate(80, 80)">
+    <!-- ZowT Logo -->
+    <text x="0" y="60" font-family="Inter, monospace" font-size="64" font-weight="800" fill="white">
+      ZowT
+    </text>
+    
+    <!-- System Active Badge -->
+    <g transform="translate(250, 20)">
+      <rect width="200" height="36" rx="18" fill="rgba(255,255,255,0.1)" stroke="rgba(96,165,250,0.4)" stroke-width="1"/>
+      <circle cx="25" cy="18" r="4" fill="#4ade80"/>
+      <text x="40" y="23" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#4ade80">SYSTEM ACTIVE</text>
+    </g>
+    
+    <!-- Subtitle -->
+    <text x="0" y="100" font-family="Inter, sans-serif" font-size="24" font-weight="500" fill="#94a3b8">
+      CYBER FORENSICS &amp; DIGITAL INVESTIGATION
+    </text>
+  </g>
+  
+  <!-- Main Content Area -->
+  <g transform="translate(80, 250)">
+    
+    <!-- Main Title -->
+    <text x="0" y="0" font-family="Inter, sans-serif" font-size="52" font-weight="700" fill="white">
+      <tspan x="0" dy="0">Especialista em</tspan>
+      <tspan x="0" dy="65">Crimes Cibernéticos</tspan>
+    </text>
+    
+    <!-- Accent Line -->
+    <rect x="0" y="90" width="300" height="4" fill="url(#accentGradient)" rx="2"/>
+    
+    <!-- Services Grid -->
+    <g transform="translate(0, 150)">
+      
+      <!-- Service 1: Blockchain Analysis -->
+      <g>
+        <rect x="0" y="0" width="180" height="120" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(96,165,250,0.2)" stroke-width="1"/>
+        <rect x="15" y="15" width="40" height="40" rx="8" fill="rgba(96,165,250,0.1)"/>
+        <text x="30" y="38" font-family="Inter" font-size="20" fill="#60a5fa">⛓</text>
+        <text x="15" y="75" font-family="Inter" font-size="16" font-weight="600" fill="white">Análise Blockchain</text>
+        <text x="15" y="95" font-family="Inter" font-size="12" fill="#94a3b8">Rastreamento de criptomoedas</text>
+      </g>
+      
+      <!-- Service 2: Digital Forensics -->
+      <g transform="translate(200, 0)">
+        <rect x="0" y="0" width="180" height="120" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(96,165,250,0.2)" stroke-width="1"/>
+        <rect x="15" y="15" width="40" height="40" rx="8" fill="rgba(96,165,250,0.1)"/>
+        <text x="30" y="38" font-family="Inter" font-size="20" fill="#60a5fa">🔍</text>
+        <text x="15" y="75" font-family="Inter" font-size="16" font-weight="600" fill="white">Perícia Digital</text>
+        <text x="15" y="95" font-family="Inter" font-size="12" fill="#94a3b8">Investigação forense completa</text>
+      </g>
+      
+      <!-- Service 3: Fraud Investigation -->
+      <g transform="translate(400, 0)">
+        <rect x="0" y="0" width="180" height="120" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(96,165,250,0.2)" stroke-width="1"/>
+        <rect x="15" y="15" width="40" height="40" rx="8" fill="rgba(96,165,250,0.1)"/>
+        <text x="30" y="38" font-family="Inter" font-size="20" fill="#60a5fa">🛡</text>
+        <text x="15" y="75" font-family="Inter" font-size="16" font-weight="600" fill="white">Combate à Fraude</text>
+        <text x="15" y="95" font-family="Inter" font-size="12" fill="#94a3b8">Análise de crimes online</text>
+      </g>
+      
+      <!-- Service 4: OSINT -->
+      <g transform="translate(600, 0)">
+        <rect x="0" y="0" width="180" height="120" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(96,165,250,0.2)" stroke-width="1"/>
+        <rect x="15" y="15" width="40" height="40" rx="8" fill="rgba(96,165,250,0.1)"/>
+        <text x="30" y="38" font-family="Inter" font-size="20" fill="#60a5fa">📡</text>
+        <text x="15" y="75" font-family="Inter" font-size="16" font-weight="600" fill="white">OSINT &amp; SOCMINT</text>
+        <text x="15" y="95" font-family="Inter" font-size="12" fill="#94a3b8">Inteligência digital avançada</text>
+      </g>
+      
+    </g>
+    
+  </g>
+  
+  <!-- Statistics Section -->
+  <g transform="translate(80, 650)">
+    
+    <text x="0" y="0" font-family="Inter" font-size="28" font-weight="700" fill="white">Resultados Comprovados</text>
+    
+    <g transform="translate(0, 50)">
+      
+      <!-- Stat 1 -->
+      <g>
+        <text x="0" y="0" font-family="Inter" font-size="48" font-weight="800" fill="#60a5fa">80+</text>
+        <text x="0" y="25" font-family="Inter" font-size="14" font-weight="500" fill="#94a3b8">CASOS ATENDIDOS</text>
+      </g>
+      
+      <!-- Stat 2 -->
+      <g transform="translate(200, 0)">
+        <text x="0" y="0" font-family="Inter" font-size="48" font-weight="800" fill="#60a5fa">98%</text>
+        <text x="0" y="25" font-family="Inter" font-size="14" font-weight="500" fill="#94a3b8">TAXA DE SUCESSO</text>
+      </g>
+      
+      <!-- Stat 3 -->
+      <g transform="translate(400, 0)">
+        <text x="0" y="0" font-family="Inter" font-size="48" font-weight="800" fill="#60a5fa">R$ 20M+</text>
+        <text x="0" y="25" font-family="Inter" font-size="14" font-weight="500" fill="#94a3b8">VALORES RASTREADOS</text>
+      </g>
+      
+      <!-- Stat 4 -->
+      <g transform="translate(650, 0)">
+        <text x="0" y="0" font-family="Inter" font-size="48" font-weight="800" fill="#60a5fa">10+</text>
+        <text x="0" y="25" font-family="Inter" font-size="14" font-weight="500" fill="#94a3b8">ANOS EXPERIÊNCIA</text>
+      </g>
+      
+    </g>
+    
+  </g>
+  
+  <!-- Call to Action Section -->
+  <g transform="translate(80, 800)">
+    
+    <!-- CTA Box -->
+    <rect x="0" y="0" width="920" height="120" rx="16" fill="rgba(96,165,250,0.1)" stroke="rgba(96,165,250,0.3)" stroke-width="2"/>
+    
+    <!-- CTA Content -->
+    <g transform="translate(40, 30)">
+      <text x="0" y="0" font-family="Inter" font-size="24" font-weight="700" fill="white">
+        Precisa de investigação digital especializada?
+      </text>
+      <text x="0" y="30" font-family="Inter" font-size="16" fill="#94a3b8">
+        Entre em contato para uma consulta técnica gratuita sobre seu caso
+      </text>
+    </g>
+    
+    <!-- Contact Info -->
+    <g transform="translate(680, 35)">
+      <text x="0" y="0" font-family="Inter" font-size="18" font-weight="600" fill="#60a5fa">
+        📧 zowtech@email.com
+      </text>
+      <text x="0" y="25" font-family="Inter" font-size="18" font-weight="600" fill="#60a5fa">
+        📱 +55 (11) 98916-5012
+      </text>
+    </g>
+    
+  </g>
+  
+  <!-- Bottom Branding -->
+  <g transform="translate(80, 980)">
+    <text x="0" y="0" font-family="Inter" font-size="16" font-weight="500" fill="#64748b">
+      ZowT • Digital Forensics Expert • Certificado em Análise Forense
+    </text>
+    <text x="700" y="0" font-family="Inter" font-size="16" font-weight="500" fill="#64748b">
+      www.zowt.com
+    </text>
+  </g>
+  
+</svg>
