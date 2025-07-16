@@ -18,7 +18,7 @@ export function IntroSection() {
             <div className="relative group">
               <div className="absolute -inset-4 bg-gradient-to-r from-bright-blue/20 to-blue-600/20 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <img 
-                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                src="/assets/professional-team.jpg" 
                 alt="Digital forensics investigation setup" 
                 className="relative rounded-2xl shadow-2xl w-full h-auto transform group-hover:scale-105 transition-transform duration-500" 
               />
